@@ -1,0 +1,879 @@
+[
+  {
+    "kind": "ar",
+    "variant": "stream0009_temp_1.1",
+    "settings": {
+      "generator_revision": 2,
+      "condition_blend": 0.0,
+      "solver": "euler",
+      "checkpoint_sha256": "f10a640be5ec68c5e0a51618ea58b585de698737208b88bbceaa133b77bf4d5b",
+      "samples": 10000,
+      "batch": 128,
+      "seed": 101051,
+      "variant": "stream0009_temp_1.1",
+      "device": "cuda"
+    },
+    "draws": 10000,
+    "unique": 9976,
+    "unique_eligible": 9937,
+    "seconds": 27.716567133989884,
+    "raw_per_second": 360.7950418844121,
+    "eligible_per_second": 358.5220331205403,
+    "exact_known_fraction": 0.0056,
+    "normalized_property_mae": [
+      0.0,
+      0.17813056954013717,
+      0.24142010500759825,
+      0.7774460034866412
+    ],
+    "codebook_squared_distance": null,
+    "implementation": "causal AR with prefix recomputation (no KV cache)",
+    "files": {
+      "raw.fasta": "d8dd97a4a48cb284f9e408956430f6ee85a8ecf6d76f7b0deec7b9df79f20e49",
+      "eligible.fasta": "f62af16ba0c9be0ca006d7acc90495f793818206a68705553c6ee2c80093a24b",
+      "target_properties.npy": "dd569ac395846176788365dae2c2339155f413973c16665aa6cf1bd5b0bf4772"
+    }
+  },
+  {
+    "kind": "ar",
+    "variant": "stream0019_temp_1.1",
+    "settings": {
+      "generator_revision": 2,
+      "condition_blend": 0.0,
+      "solver": "euler",
+      "checkpoint_sha256": "f10a640be5ec68c5e0a51618ea58b585de698737208b88bbceaa133b77bf4d5b",
+      "samples": 10000,
+      "batch": 128,
+      "seed": 101061,
+      "variant": "stream0019_temp_1.1",
+      "device": "cuda"
+    },
+    "draws": 10000,
+    "unique": 9979,
+    "unique_eligible": 9941,
+    "seconds": 29.126860879012384,
+    "raw_per_second": 343.32570343018284,
+    "eligible_per_second": 341.3000817799448,
+    "exact_known_fraction": 0.0053,
+    "normalized_property_mae": [
+      0.0,
+      0.17935921012944653,
+      0.2385370177660096,
+      0.764396760101296
+    ],
+    "codebook_squared_distance": null,
+    "implementation": "causal AR with prefix recomputation (no KV cache)",
+    "files": {
+      "raw.fasta": "cba59563a9ae9ec02546077a7b2564e14b8ecccca8805b741d354642400d62ef",
+      "eligible.fasta": "003f1de609389fdde747fda9ca584f863032457c4d8d5bf4071d0fe6d8bc3ca3",
+      "target_properties.npy": "703204e4425c242fd09e3f90ff44e868c2bc8c5d735fe529fd7279a5fe0a32a6"
+    }
+  },
+  {
+    "kind": "flow",
+    "variant": "blend35_stream0007_heun_32",
+    "settings": {
+      "generator_revision": 2,
+      "condition_blend": 0.35,
+      "solver": "heun",
+      "checkpoint_sha256": "cfe09968081455f0a8b8fb1a4525efa814fdc1c47d76d80a5c5b3a82b1b07533",
+      "samples": 10000,
+      "batch": 128,
+      "seed": 101049,
+      "variant": "blend35_stream0007_heun_32",
+      "device": "cuda"
+    },
+    "draws": 10000,
+    "unique": 9988,
+    "unique_eligible": 9949,
+    "seconds": 50.20465131101082,
+    "raw_per_second": 199.18473167060543,
+    "eligible_per_second": 198.16888953908534,
+    "exact_known_fraction": 0.005,
+    "normalized_property_mae": [
+      0.0,
+      0.12107141388890581,
+      0.16049499743454362,
+      0.4789631165409632
+    ],
+    "codebook_squared_distance": 0.0023793481832629516,
+    "implementation": "heun full-sequence updates",
+    "files": {
+      "raw.fasta": "cc88299dfa863610ea970a9246fae303d98b1045901d87edec9f8f1ca2eec23d",
+      "eligible.fasta": "15310b248bd3b17efd6b6611367ae8c3687751fb171ae37f9bf842187193108d",
+      "target_properties.npy": "d8c343c30b6a95176216f8364ecd27375198fde63ccec86a92f7bc231e922e44"
+    }
+  },
+  {
+    "kind": "flow",
+    "variant": "blend35_stream0008_heun_32",
+    "settings": {
+      "generator_revision": 2,
+      "condition_blend": 0.35,
+      "solver": "heun",
+      "checkpoint_sha256": "cfe09968081455f0a8b8fb1a4525efa814fdc1c47d76d80a5c5b3a82b1b07533",
+      "samples": 10000,
+      "batch": 128,
+      "seed": 101050,
+      "variant": "blend35_stream0008_heun_32",
+      "device": "cuda"
+    },
+    "draws": 10000,
+    "unique": 9982,
+    "unique_eligible": 9943,
+    "seconds": 50.40066505499999,
+    "raw_per_second": 198.41008028539798,
+    "eligible_per_second": 197.2791428277712,
+    "exact_known_fraction": 0.0053,
+    "normalized_property_mae": [
+      0.0,
+      0.12155024361666235,
+      0.1616248035410757,
+      0.46659166830248666
+    ],
+    "codebook_squared_distance": 0.0023756386900815785,
+    "implementation": "heun full-sequence updates",
+    "files": {
+      "raw.fasta": "8978c6181dca089f3ce6048304cd16caa93ac9abdf03f815a5d4bcfe6f0ab535",
+      "eligible.fasta": "8f35a6d09f4c7c759b7563168003746dffe817c2326af354dead6fbc7ce41c8a",
+      "target_properties.npy": "5704bfc12f69b8f3ff2c3a57e8a8e1648884556cb0efe3b2840ea10d21eb3dbb"
+    }
+  },
+  {
+    "kind": "flow",
+    "variant": "blend35_stream0017_heun_32",
+    "settings": {
+      "generator_revision": 2,
+      "condition_blend": 0.35,
+      "solver": "heun",
+      "checkpoint_sha256": "cfe09968081455f0a8b8fb1a4525efa814fdc1c47d76d80a5c5b3a82b1b07533",
+      "samples": 10000,
+      "batch": 128,
+      "seed": 101059,
+      "variant": "blend35_stream0017_heun_32",
+      "device": "cuda"
+    },
+    "draws": 10000,
+    "unique": 9986,
+    "unique_eligible": 9957,
+    "seconds": 53.9277545909863,
+    "raw_per_second": 185.43327227036892,
+    "eligible_per_second": 184.63590919960635,
+    "exact_known_fraction": 0.0041,
+    "normalized_property_mae": [
+      0.0,
+      0.12205582486925612,
+      0.1617395299450013,
+      0.4729162497211593
+    ],
+    "codebook_squared_distance": 0.0024024791974291393,
+    "implementation": "heun full-sequence updates",
+    "files": {
+      "raw.fasta": "798f7de2dbcca8aecceb7f3d8d82d05a71049940d4a696c32f1dbe0dd8b44915",
+      "eligible.fasta": "c54d4e318a96857f2c0a9102e026d860addca44f7601d85d29c1356acbb4a02a",
+      "target_properties.npy": "2a7a709218f203e22fb1a4f77411ceb1eaea825fa2c592acb8c18ef4c8cb7a08"
+    }
+  },
+  {
+    "kind": "flow",
+    "variant": "blend35_stream0018_heun_32",
+    "settings": {
+      "generator_revision": 2,
+      "condition_blend": 0.35,
+      "solver": "heun",
+      "checkpoint_sha256": "cfe09968081455f0a8b8fb1a4525efa814fdc1c47d76d80a5c5b3a82b1b07533",
+      "samples": 10000,
+      "batch": 128,
+      "seed": 101060,
+      "variant": "blend35_stream0018_heun_32",
+      "device": "cuda"
+    },
+    "draws": 10000,
+    "unique": 9983,
+    "unique_eligible": 9955,
+    "seconds": 53.73153093201108,
+    "raw_per_second": 186.1104611490309,
+    "eligible_per_second": 185.27296407386024,
+    "exact_known_fraction": 0.0043,
+    "normalized_property_mae": [
+      0.0,
+      0.12084992959021945,
+      0.1626899920300376,
+      0.4779929645557533
+    ],
+    "codebook_squared_distance": 0.0023888919201879937,
+    "implementation": "heun full-sequence updates",
+    "files": {
+      "raw.fasta": "c61a205db495f8b824cc89f336891df9d9d957f74ee139735ae9714ce85ece8e",
+      "eligible.fasta": "da31a0ae9a4c75a9350cd37bee4a5317bae58c569f61d0ff2d6b8b3fdae2633f",
+      "target_properties.npy": "8d09bb4a9304ff339f3c74f29e7f98a33751fa80b149fb166bcd84858f207d48"
+    }
+  },
+  {
+    "kind": "flow",
+    "variant": "replenish0_heun_32",
+    "settings": {
+      "generator_revision": 2,
+      "condition_blend": 0.0,
+      "solver": "heun",
+      "checkpoint_sha256": "cfe09968081455f0a8b8fb1a4525efa814fdc1c47d76d80a5c5b3a82b1b07533",
+      "samples": 27796,
+      "batch": 128,
+      "seed": 901042,
+      "variant": "replenish0_heun_32",
+      "device": "cuda",
+      "condition_fasta_sha256": "c6449068ec2611866ab34a473cb4b7c88a8239a9f3cf6a053bc8806c6467181a"
+    },
+    "draws": 27796,
+    "unique": 27796,
+    "unique_eligible": 27796,
+    "seconds": 121.75671604799572,
+    "raw_per_second": 228.291308292538,
+    "eligible_per_second": 228.291308292538,
+    "exact_known_fraction": 0.0,
+    "normalized_property_mae": [
+      0.0,
+      0.11403108325607644,
+      0.14445634273539879,
+      0.5023455863152704
+    ],
+    "codebook_squared_distance": 0.0023064602469734918,
+    "implementation": "heun full-sequence updates",
+    "files": {
+      "raw.fasta": "fc8becfed4bdad8c395fec0467a80bc0b7c41a857411aeac312e19991214346a",
+      "eligible.fasta": "fc8becfed4bdad8c395fec0467a80bc0b7c41a857411aeac312e19991214346a",
+      "target_properties.npy": "44ab0f9cbbc091ab5aa4cadb44229aa177b91393a12f339e9144a946e6f331cd"
+    }
+  },
+  {
+    "kind": "flow",
+    "variant": "replenish1_heun_32",
+    "settings": {
+      "generator_revision": 2,
+      "condition_blend": 0.0,
+      "solver": "heun",
+      "checkpoint_sha256": "cfe09968081455f0a8b8fb1a4525efa814fdc1c47d76d80a5c5b3a82b1b07533",
+      "samples": 22204,
+      "batch": 128,
+      "seed": 901043,
+      "variant": "replenish1_heun_32",
+      "device": "cuda",
+      "condition_fasta_sha256": "280be73322934203e2ee6931ca7d3fcb323fbfadf58a4e39fb10c11ac799b69a"
+    },
+    "draws": 22204,
+    "unique": 22204,
+    "unique_eligible": 22204,
+    "seconds": 93.26697545300703,
+    "raw_per_second": 238.0692618384262,
+    "eligible_per_second": 238.0692618384262,
+    "exact_known_fraction": 0.0,
+    "normalized_property_mae": [
+      0.0,
+      0.11276303273732216,
+      0.1442848994749087,
+      0.5077303216242622
+    ],
+    "codebook_squared_distance": 0.002324144640969562,
+    "implementation": "heun full-sequence updates",
+    "files": {
+      "raw.fasta": "8503c429a0566900e1194af322208d868a50f299caa118a66d1bd5f3e5c8de13",
+      "eligible.fasta": "8503c429a0566900e1194af322208d868a50f299caa118a66d1bd5f3e5c8de13",
+      "target_properties.npy": "bdad1568f1a4c3edde784ee1eb768c112fbf12ce7b930a50894c00c916b48e6d"
+    }
+  },
+  {
+    "kind": "flow",
+    "variant": "stream0000_heun_32",
+    "settings": {
+      "generator_revision": 2,
+      "condition_blend": 0.0,
+      "solver": "heun",
+      "checkpoint_sha256": "cfe09968081455f0a8b8fb1a4525efa814fdc1c47d76d80a5c5b3a82b1b07533",
+      "samples": 10000,
+      "batch": 128,
+      "seed": 101042,
+      "variant": "stream0000_heun_32",
+      "device": "cuda"
+    },
+    "draws": 10000,
+    "unique": 9984,
+    "unique_eligible": 9933,
+    "seconds": 50.71252254000865,
+    "raw_per_second": 197.18995425855016,
+    "eligible_per_second": 195.86878156501788,
+    "exact_known_fraction": 0.0066,
+    "normalized_property_mae": [
+      0.0,
+      0.08804617861369489,
+      0.1635436661311366,
+      0.4551093831924295
+    ],
+    "codebook_squared_distance": 0.0027377035386294503,
+    "implementation": "heun full-sequence updates",
+    "files": {
+      "raw.fasta": "1b870e7c46596fdf88a2b807f6509213f750475d0aafa5cdc293d1cec6e2cf58",
+      "eligible.fasta": "8fcd0a64c2285cb314d854007b8e40b3c4c69ae875cd3fe8ebad3f8cc8b77228",
+      "target_properties.npy": "07fdd595fefe1d1c7a069c8ccc84582ba527ddd257503c078bb0698a71835f64"
+    }
+  },
+  {
+    "kind": "flow",
+    "variant": "stream0001_heun_32",
+    "settings": {
+      "generator_revision": 2,
+      "condition_blend": 0.0,
+      "solver": "heun",
+      "checkpoint_sha256": "cfe09968081455f0a8b8fb1a4525efa814fdc1c47d76d80a5c5b3a82b1b07533",
+      "samples": 10000,
+      "batch": 128,
+      "seed": 101043,
+      "variant": "stream0001_heun_32",
+      "device": "cuda"
+    },
+    "draws": 10000,
+    "unique": 9983,
+    "unique_eligible": 9936,
+    "seconds": 49.76999705898925,
+    "raw_per_second": 200.92426343018724,
+    "eligible_per_second": 199.63834814423404,
+    "exact_known_fraction": 0.0062,
+    "normalized_property_mae": [
+      0.0,
+      0.08937202021321354,
+      0.16451844944900645,
+      0.46224582391425784
+    ],
+    "codebook_squared_distance": 0.0027186811630484425,
+    "implementation": "heun full-sequence updates",
+    "files": {
+      "raw.fasta": "47b646447f7396d3828a82597aa3609d05d73a3d6bc2a8adfdf0bbb3c5c8a828",
+      "eligible.fasta": "d08f0a13dab9461ff949daa5396125fe5df496d7913bf8ca762c995888c65809",
+      "target_properties.npy": "31f748e902d083c608ef21756650008d04ca4de017698e45119eabadeceeca6e"
+    }
+  },
+  {
+    "kind": "flow",
+    "variant": "stream0002_heun_32",
+    "settings": {
+      "generator_revision": 2,
+      "condition_blend": 0.0,
+      "solver": "heun",
+      "checkpoint_sha256": "cfe09968081455f0a8b8fb1a4525efa814fdc1c47d76d80a5c5b3a82b1b07533",
+      "samples": 10000,
+      "batch": 128,
+      "seed": 101044,
+      "variant": "stream0002_heun_32",
+      "device": "cuda"
+    },
+    "draws": 10000,
+    "unique": 9987,
+    "unique_eligible": 9947,
+    "seconds": 50.532032066985266,
+    "raw_per_second": 197.89427796499453,
+    "eligible_per_second": 196.84543829178008,
+    "exact_known_fraction": 0.0049,
+    "normalized_property_mae": [
+      0.0,
+      0.08773191792842096,
+      0.16324991523630672,
+      0.4716370816056713
+    ],
+    "codebook_squared_distance": 0.002584301327249106,
+    "implementation": "heun full-sequence updates",
+    "files": {
+      "raw.fasta": "30cdc97c1be115840f14526666185416eaefbff74f9b1547a155125e35507f05",
+      "eligible.fasta": "6c989f8c77bac1081bb90607d495697f1c1d7b23bf88da1d95e20444e4da013a",
+      "target_properties.npy": "3f2cdc9ef15319ca193f579cd7dfa66f56ee7e99974aac28620644f756f4b4d2"
+    }
+  },
+  {
+    "kind": "flow",
+    "variant": "stream0003_heun_32",
+    "settings": {
+      "generator_revision": 2,
+      "condition_blend": 0.0,
+      "solver": "heun",
+      "checkpoint_sha256": "cfe09968081455f0a8b8fb1a4525efa814fdc1c47d76d80a5c5b3a82b1b07533",
+      "samples": 10000,
+      "batch": 128,
+      "seed": 101045,
+      "variant": "stream0003_heun_32",
+      "device": "cuda"
+    },
+    "draws": 10000,
+    "unique": 9981,
+    "unique_eligible": 9926,
+    "seconds": 50.84202927298611,
+    "raw_per_second": 196.68766457583743,
+    "eligible_per_second": 195.23217585797624,
+    "exact_known_fraction": 0.0069,
+    "normalized_property_mae": [
+      0.0,
+      0.08628869265691617,
+      0.1625796349509678,
+      0.4564664368273171
+    ],
+    "codebook_squared_distance": 0.0026322818078289303,
+    "implementation": "heun full-sequence updates",
+    "files": {
+      "raw.fasta": "4e61171cadd39c14d4a94cf9ac04445be22c46ea40436c7d680412ab97700c40",
+      "eligible.fasta": "0fd798ce3cf2a5092dab11d159a908d3a420bc8384e0174227ed755283f4c9af",
+      "target_properties.npy": "159de60d6ddbfe6e03fb9ec97842cc810084c606ed197d64bbffdffb63a7704e"
+    }
+  },
+  {
+    "kind": "flow",
+    "variant": "stream0004_heun_32",
+    "settings": {
+      "generator_revision": 2,
+      "condition_blend": 0.0,
+      "solver": "heun",
+      "checkpoint_sha256": "cfe09968081455f0a8b8fb1a4525efa814fdc1c47d76d80a5c5b3a82b1b07533",
+      "samples": 10000,
+      "batch": 128,
+      "seed": 101046,
+      "variant": "stream0004_heun_32",
+      "device": "cuda"
+    },
+    "draws": 10000,
+    "unique": 9979,
+    "unique_eligible": 9940,
+    "seconds": 50.41869391899672,
+    "raw_per_second": 198.33913222873483,
+    "eligible_per_second": 197.14909743536242,
+    "exact_known_fraction": 0.0057,
+    "normalized_property_mae": [
+      0.0,
+      0.0884947472558891,
+      0.16374278146565122,
+      0.45360690780742136
+    ],
+    "codebook_squared_distance": 0.0026722274237324165,
+    "implementation": "heun full-sequence updates",
+    "files": {
+      "raw.fasta": "392c4654511c9851d3b26c05afb1fb06a67212eb460f959c6c52c6224e2e5ad0",
+      "eligible.fasta": "0d41f9a80890ab39d171e6ef43b926bc8d05943ebcb0271c6059a406433de220",
+      "target_properties.npy": "8f9bff70539b5297502a17b151651e7b275c3e01e684e7252f8d0a1f37fb76da"
+    }
+  },
+  {
+    "kind": "flow",
+    "variant": "stream0005_heun_32",
+    "settings": {
+      "generator_revision": 2,
+      "condition_blend": 0.0,
+      "solver": "heun",
+      "checkpoint_sha256": "cfe09968081455f0a8b8fb1a4525efa814fdc1c47d76d80a5c5b3a82b1b07533",
+      "samples": 10000,
+      "batch": 128,
+      "seed": 101047,
+      "variant": "stream0005_heun_32",
+      "device": "cuda"
+    },
+    "draws": 10000,
+    "unique": 9987,
+    "unique_eligible": 9936,
+    "seconds": 50.24452708099852,
+    "raw_per_second": 199.0266518755194,
+    "eligible_per_second": 197.75288130351606,
+    "exact_known_fraction": 0.0061,
+    "normalized_property_mae": [
+      0.0,
+      0.08907108525016345,
+      0.1636540564379576,
+      0.46512306638619655
+    ],
+    "codebook_squared_distance": 0.002612653129462954,
+    "implementation": "heun full-sequence updates",
+    "files": {
+      "raw.fasta": "16214b80805b044a058af0818e7800cd07aae1aa439f32d6cd498b46b2ca19ce",
+      "eligible.fasta": "a26c61a1fd521ead4a3138601106c576a4a7e8a6282d0eff4ab507fa57d9b7ef",
+      "target_properties.npy": "e0f578adfd5dc8fdb780d1986aac1bcec59ccb1ce5b3a99494411d1f084f838b"
+    }
+  },
+  {
+    "kind": "flow",
+    "variant": "stream0006_heun_32",
+    "settings": {
+      "generator_revision": 2,
+      "condition_blend": 0.0,
+      "solver": "heun",
+      "checkpoint_sha256": "cfe09968081455f0a8b8fb1a4525efa814fdc1c47d76d80a5c5b3a82b1b07533",
+      "samples": 10000,
+      "batch": 128,
+      "seed": 101048,
+      "variant": "stream0006_heun_32",
+      "device": "cuda"
+    },
+    "draws": 10000,
+    "unique": 9980,
+    "unique_eligible": 9933,
+    "seconds": 50.23061125201639,
+    "raw_per_second": 199.08178998316637,
+    "eligible_per_second": 197.74794199027914,
+    "exact_known_fraction": 0.0062,
+    "normalized_property_mae": [
+      0.0,
+      0.09070056199874649,
+      0.16284641826057206,
+      0.4572030283718911
+    ],
+    "codebook_squared_distance": 0.0026529759899536266,
+    "implementation": "heun full-sequence updates",
+    "files": {
+      "raw.fasta": "67069b17756929d18b5c8de6b63a363bac38fb2505b73e991a0220b9a65a01c8",
+      "eligible.fasta": "aa9d1d4a6b72956af2437e03fd1cbf73a59636c72ca9645969dd7027837264d3",
+      "target_properties.npy": "18056068f2e0a9b28ec49aa05bc7f6ebd90995d24a3dfc384aa43da2893b29f4"
+    }
+  },
+  {
+    "kind": "flow",
+    "variant": "stream0010_heun_32",
+    "settings": {
+      "generator_revision": 2,
+      "condition_blend": 0.0,
+      "solver": "heun",
+      "checkpoint_sha256": "cfe09968081455f0a8b8fb1a4525efa814fdc1c47d76d80a5c5b3a82b1b07533",
+      "samples": 10000,
+      "batch": 128,
+      "seed": 101052,
+      "variant": "stream0010_heun_32",
+      "device": "cuda"
+    },
+    "draws": 10000,
+    "unique": 9977,
+    "unique_eligible": 9926,
+    "seconds": 50.73939406100544,
+    "raw_per_second": 197.08552270010773,
+    "eligible_per_second": 195.62708983212696,
+    "exact_known_fraction": 0.0071,
+    "normalized_property_mae": [
+      0.0,
+      0.08971765130623077,
+      0.16403161559152885,
+      0.44886726946306715
+    ],
+    "codebook_squared_distance": 0.00269541572013139,
+    "implementation": "heun full-sequence updates",
+    "files": {
+      "raw.fasta": "f1d6e89893be74643add5f8ba919a6c29fefae3cd9f6869e78a38ef3c523c859",
+      "eligible.fasta": "28088b92287f5b9c1f690e77be4a4b79b0d24d3285bc648650fc950e20779c7f",
+      "target_properties.npy": "289d64fc65236e44b026cced13e789efd239e7ab9eb1fdb39d7ced6444af8abc"
+    }
+  },
+  {
+    "kind": "flow",
+    "variant": "stream0011_heun_32",
+    "settings": {
+      "generator_revision": 2,
+      "condition_blend": 0.0,
+      "solver": "heun",
+      "checkpoint_sha256": "cfe09968081455f0a8b8fb1a4525efa814fdc1c47d76d80a5c5b3a82b1b07533",
+      "samples": 10000,
+      "batch": 128,
+      "seed": 101053,
+      "variant": "stream0011_heun_32",
+      "device": "cuda"
+    },
+    "draws": 10000,
+    "unique": 9984,
+    "unique_eligible": 9942,
+    "seconds": 50.564002913975855,
+    "raw_per_second": 197.7691524346465,
+    "eligible_per_second": 196.62209135052552,
+    "exact_known_fraction": 0.0057,
+    "normalized_property_mae": [
+      0.0,
+      0.08781853582395625,
+      0.1643168512094115,
+      0.4535228891203062
+    ],
+    "codebook_squared_distance": 0.0027234952283810964,
+    "implementation": "heun full-sequence updates",
+    "files": {
+      "raw.fasta": "0f5fb364a1c5d701f541b76a20581c7f15ef505eee24df10e39602afe9312cd3",
+      "eligible.fasta": "b1411e2f4e9138fb53310ac37757db6308bf4d134b4f26b10f835826604a869f",
+      "target_properties.npy": "d96ba8a79e1580d638063dbb794b9214b7d23e89f6a5130615bbb6148b2f81f6"
+    }
+  },
+  {
+    "kind": "flow",
+    "variant": "stream0012_heun_32",
+    "settings": {
+      "generator_revision": 2,
+      "condition_blend": 0.0,
+      "solver": "heun",
+      "checkpoint_sha256": "cfe09968081455f0a8b8fb1a4525efa814fdc1c47d76d80a5c5b3a82b1b07533",
+      "samples": 10000,
+      "batch": 128,
+      "seed": 101054,
+      "variant": "stream0012_heun_32",
+      "device": "cuda"
+    },
+    "draws": 10000,
+    "unique": 9986,
+    "unique_eligible": 9932,
+    "seconds": 50.817866597994,
+    "raw_per_second": 196.78118483617618,
+    "eligible_per_second": 195.44307277929016,
+    "exact_known_fraction": 0.0065,
+    "normalized_property_mae": [
+      0.0,
+      0.08843249873948274,
+      0.16253780372982465,
+      0.4591358785277711
+    ],
+    "codebook_squared_distance": 0.0026639478157356945,
+    "implementation": "heun full-sequence updates",
+    "files": {
+      "raw.fasta": "40f57c4e003214a8344066e7eb93730d312e18f0b4bdc157f993c0fcccbe529f",
+      "eligible.fasta": "68f31ce9abd96b4653d9506d54ef4cf618c9106a2df50b13466a2804c8b849c4",
+      "target_properties.npy": "01c25c9de65c6355bff723afeb174a9c51ecb9b901b159b33643e3b5cdf3ecb1"
+    }
+  },
+  {
+    "kind": "flow",
+    "variant": "stream0013_heun_32",
+    "settings": {
+      "generator_revision": 2,
+      "condition_blend": 0.0,
+      "solver": "heun",
+      "checkpoint_sha256": "cfe09968081455f0a8b8fb1a4525efa814fdc1c47d76d80a5c5b3a82b1b07533",
+      "samples": 10000,
+      "batch": 128,
+      "seed": 101055,
+      "variant": "stream0013_heun_32",
+      "device": "cuda"
+    },
+    "draws": 10000,
+    "unique": 9982,
+    "unique_eligible": 9932,
+    "seconds": 50.93909571701079,
+    "raw_per_second": 196.31286851958316,
+    "eligible_per_second": 194.97794101365,
+    "exact_known_fraction": 0.0067,
+    "normalized_property_mae": [
+      0.0,
+      0.08482659665592217,
+      0.16189619014177253,
+      0.45732008468150354
+    ],
+    "codebook_squared_distance": 0.0026853075309927706,
+    "implementation": "heun full-sequence updates",
+    "files": {
+      "raw.fasta": "9428289de45acc4da99078ced36d401ccf0ae7651dbf57439cd93178edc49fa9",
+      "eligible.fasta": "92bb3422b5fc6ce11d0a33163147fcdf6a2d14501956d60b6765f23adc42937a",
+      "target_properties.npy": "f7cf0181633a7aebfdb98ac922e3bb4b40b197091c41682a026f0a822ae57be7"
+    }
+  },
+  {
+    "kind": "flow",
+    "variant": "stream0014_heun_32",
+    "settings": {
+      "generator_revision": 2,
+      "condition_blend": 0.0,
+      "solver": "heun",
+      "checkpoint_sha256": "cfe09968081455f0a8b8fb1a4525efa814fdc1c47d76d80a5c5b3a82b1b07533",
+      "samples": 10000,
+      "batch": 128,
+      "seed": 101056,
+      "variant": "stream0014_heun_32",
+      "device": "cuda"
+    },
+    "draws": 10000,
+    "unique": 9981,
+    "unique_eligible": 9932,
+    "seconds": 53.688668388000224,
+    "raw_per_second": 186.25904311374327,
+    "eligible_per_second": 184.99248162056983,
+    "exact_known_fraction": 0.0064,
+    "normalized_property_mae": [
+      0.0,
+      0.08795482883663869,
+      0.16576611135185823,
+      0.4636849504949286
+    ],
+    "codebook_squared_distance": 0.002667007876465781,
+    "implementation": "heun full-sequence updates",
+    "files": {
+      "raw.fasta": "ced064f89a711dd945ccbd4ac295b5a2f83cbb47fbd68ea71a1a7ad1b7d8e49b",
+      "eligible.fasta": "920e25d029b7dc7055d4fc17ac48d6f57a45cf43db749b3569575831e7914d86",
+      "target_properties.npy": "3dc1f84aa12b2fff364e08e42c7e4c37d695f8cc025f2ccca7c7e0a80f5d8597"
+    }
+  },
+  {
+    "kind": "flow",
+    "variant": "stream0015_heun_32",
+    "settings": {
+      "generator_revision": 2,
+      "condition_blend": 0.0,
+      "solver": "heun",
+      "checkpoint_sha256": "cfe09968081455f0a8b8fb1a4525efa814fdc1c47d76d80a5c5b3a82b1b07533",
+      "samples": 10000,
+      "batch": 128,
+      "seed": 101057,
+      "variant": "stream0015_heun_32",
+      "device": "cuda"
+    },
+    "draws": 10000,
+    "unique": 9979,
+    "unique_eligible": 9931,
+    "seconds": 53.39709500299068,
+    "raw_per_second": 187.27610555293163,
+    "eligible_per_second": 185.9839004246164,
+    "exact_known_fraction": 0.0067,
+    "normalized_property_mae": [
+      0.0,
+      0.08715710382193212,
+      0.16490626875692968,
+      0.4586127099678856
+    ],
+    "codebook_squared_distance": 0.0027046184544746257,
+    "implementation": "heun full-sequence updates",
+    "files": {
+      "raw.fasta": "3dfebaa6d8ac5eb17b2db12dc6e878f2bc158a32fc7c80a20b48af7198a38a7f",
+      "eligible.fasta": "0a44b0e2085367b5106b8392c9f5e8a736d1c7be001009ba912768c72073c726",
+      "target_properties.npy": "5652bc6f4d9276c2758a04aef772c93b1f2a47a2c4efc287413bf60713a10c4a"
+    }
+  },
+  {
+    "kind": "flow",
+    "variant": "stream0016_heun_32",
+    "settings": {
+      "generator_revision": 2,
+      "condition_blend": 0.0,
+      "solver": "heun",
+      "checkpoint_sha256": "cfe09968081455f0a8b8fb1a4525efa814fdc1c47d76d80a5c5b3a82b1b07533",
+      "samples": 10000,
+      "batch": 128,
+      "seed": 101058,
+      "variant": "stream0016_heun_32",
+      "device": "cuda"
+    },
+    "draws": 10000,
+    "unique": 9973,
+    "unique_eligible": 9930,
+    "seconds": 53.75072260000161,
+    "raw_per_second": 186.04401050414344,
+    "eligible_per_second": 184.74170243061445,
+    "exact_known_fraction": 0.0066,
+    "normalized_property_mae": [
+      0.0,
+      0.08942763026996094,
+      0.16285190052946102,
+      0.4587885957254261
+    ],
+    "codebook_squared_distance": 0.00263219421340412,
+    "implementation": "heun full-sequence updates",
+    "files": {
+      "raw.fasta": "394d5c5ed3981bd8ed957388bec77cc805a9c238dd4291cf39c65aa4a3af5717",
+      "eligible.fasta": "76fe2d6dd424a891af016f1c6e059afdd0fb3bce6f60b5376bcf11456920302e",
+      "target_properties.npy": "ccfe08669e451673942e956d55d3507fcf35ce1d5411ba629cd27f0126c50926"
+    }
+  },
+  {
+    "kind": "flow",
+    "variant": "stream0020_heun_32",
+    "settings": {
+      "generator_revision": 2,
+      "condition_blend": 0.0,
+      "solver": "heun",
+      "checkpoint_sha256": "cfe09968081455f0a8b8fb1a4525efa814fdc1c47d76d80a5c5b3a82b1b07533",
+      "samples": 10000,
+      "batch": 128,
+      "seed": 101062,
+      "variant": "stream0020_heun_32",
+      "device": "cuda"
+    },
+    "draws": 10000,
+    "unique": 9969,
+    "unique_eligible": 9908,
+    "seconds": 53.67459893098567,
+    "raw_per_second": 186.30786627503102,
+    "eligible_per_second": 184.59383390530073,
+    "exact_known_fraction": 0.0089,
+    "normalized_property_mae": [
+      0.0,
+      0.08704605427980448,
+      0.16499560899136578,
+      0.45651830191972514
+    ],
+    "codebook_squared_distance": 0.0026288166925122467,
+    "implementation": "heun full-sequence updates",
+    "files": {
+      "raw.fasta": "3f3b312b4396a9eac18399d6c4cbc3095d2f02df1f57dbd5327f34c8170404f5",
+      "eligible.fasta": "ea18754e0507d6a97f3fe32c21a499dabdc9d4638b0e43736bbab0bfb7470e43",
+      "target_properties.npy": "ee6d6431be460b8f3f7ded949ff476470bf365e16ac9669647a8faafc4a98306"
+    }
+  },
+  {
+    "kind": "flow",
+    "variant": "stream0021_heun_32",
+    "settings": {
+      "generator_revision": 2,
+      "condition_blend": 0.0,
+      "solver": "heun",
+      "checkpoint_sha256": "cfe09968081455f0a8b8fb1a4525efa814fdc1c47d76d80a5c5b3a82b1b07533",
+      "samples": 10000,
+      "batch": 128,
+      "seed": 101063,
+      "variant": "stream0021_heun_32",
+      "device": "cuda"
+    },
+    "draws": 10000,
+    "unique": 9987,
+    "unique_eligible": 9934,
+    "seconds": 53.4229877780017,
+    "raw_per_second": 187.1853375471029,
+    "eligible_per_second": 185.94991431929202,
+    "exact_known_fraction": 0.0064,
+    "normalized_property_mae": [
+      0.0,
+      0.0880196154798997,
+      0.1624733714027491,
+      0.46178689833609243
+    ],
+    "codebook_squared_distance": 0.0026417561847999504,
+    "implementation": "heun full-sequence updates",
+    "files": {
+      "raw.fasta": "2ec522c1f91fb0b07e4a5ace6e356a7d2d2453e5b449d3e3e3009e985d807b5b",
+      "eligible.fasta": "0b90435f34fa188e016297e96f96319b1217d19b1e3c1dbeeb6f59e7696d9bdb",
+      "target_properties.npy": "9f6c02d0fe4db66f3a5e125e2f24c16bb6d6c068788ace842ed27db72b33cc88"
+    }
+  },
+  {
+    "kind": "flow",
+    "variant": "stream0022_heun_32",
+    "settings": {
+      "generator_revision": 2,
+      "condition_blend": 0.0,
+      "solver": "heun",
+      "checkpoint_sha256": "cfe09968081455f0a8b8fb1a4525efa814fdc1c47d76d80a5c5b3a82b1b07533",
+      "samples": 10000,
+      "batch": 128,
+      "seed": 101064,
+      "variant": "stream0022_heun_32",
+      "device": "cuda"
+    },
+    "draws": 10000,
+    "unique": 9990,
+    "unique_eligible": 9943,
+    "seconds": 53.76008725599968,
+    "raw_per_second": 186.01160285289512,
+    "eligible_per_second": 184.95133671663362,
+    "exact_known_fraction": 0.0057,
+    "normalized_property_mae": [
+      0.0,
+      0.08643333974637156,
+      0.16221109848939896,
+      0.46423760836437933
+    ],
+    "codebook_squared_distance": 0.002760977622805328,
+    "implementation": "heun full-sequence updates",
+    "files": {
+      "raw.fasta": "37ca55975fd5c8c80cd0b48c11ff0272d4bd191400f9f6267164a37c0b35310f",
+      "eligible.fasta": "114026baf6aef6b9c49f3892f143b64d5363ba264949df8f8a71c9c049a097b9",
+      "target_properties.npy": "34f28bdb8e53605f7f994bca7d727338875cf7e82209e26c0c8360fa29f1da4e"
+    }
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "amps": {
+    "DRAMP": 24275,
+    "dbAMP": 11900,
+    "AMPScanner (AP identifier; paper attribution)": 87
+  },
+  "negatives": {
+    "DBAASP": 913
+  },
+  "forbidden": {
+    "records": 39448,
+    "database_tags": {
+      "AMPDB": 1270,
+      "APD": 2041,
+      "BaAMPs": 182,
+      "CAMP": 11898,
+      "CancerPPD": 396,
+      "DBAASP": 14496,
+      "DRAMP": 18395,
+      "InverPep": 424,
+      "SATPdb": 9740,
+      "dbAMP": 20933,
+      "DADP": 601,
+      "ParaPep": 124,
+      "CyBase": 169
+    }
+  }
+}

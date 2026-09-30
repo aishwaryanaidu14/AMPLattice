@@ -1,0 +1,28 @@
+{
+  "signature": {
+    "version": "production-1",
+    "source_hashes": {
+      "manifest": "bdd3b689393bed1a46ca01f8bf106fb52be46a609dfa0e56701fb7e1ac875a99",
+      "flow": "cfe09968081455f0a8b8fb1a4525efa814fdc1c47d76d80a5c5b3a82b1b07533",
+      "ar": "f10a640be5ec68c5e0a51618ea58b585de698737208b88bbceaa133b77bf4d5b"
+    },
+    "configuration": {
+      "candidates": 250000,
+      "library_size": 50000,
+      "top_k": 100,
+      "chunk_size": 10000,
+      "max_extra_candidates": 50000,
+      "rounds": 2000,
+      "repair_proposals": 3000,
+      "distribution_tolerance": 0.1,
+      "seed": 42,
+      "device": "cuda"
+    }
+  },
+  "proposal_mix_new_draws": {
+    "heun_32": 0.7,
+    "blend35_heun_32": 0.2,
+    "ar_temp_1.1": 0.1
+  },
+  "note": "Engineering allocation, not a tuned optimum. Sampling streams are independent of solver comparisons."
+}

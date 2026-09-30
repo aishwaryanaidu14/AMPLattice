@@ -1,0 +1,308 @@
+[
+  {
+    "kind": "flow",
+    "variant": "blend35_heun_32",
+    "settings": {
+      "generator_revision": 2,
+      "condition_blend": 0.35,
+      "solver": "heun",
+      "checkpoint_sha256": "cfe09968081455f0a8b8fb1a4525efa814fdc1c47d76d80a5c5b3a82b1b07533",
+      "samples": 5000,
+      "batch": 128,
+      "seed": 1042,
+      "variant": "blend35_heun_32",
+      "device": "cuda"
+    },
+    "draws": 5000,
+    "unique": 4995,
+    "unique_eligible": 4975,
+    "seconds": 25.663119237025967,
+    "raw_per_second": 194.8321228538015,
+    "eligible_per_second": 193.8579622395325,
+    "exact_known_fraction": 0.0046,
+    "normalized_property_mae": [
+      0.0,
+      0.12271157814947892,
+      0.16079109734458838,
+      0.47122144546841654
+    ],
+    "codebook_squared_distance": 0.002423302488750778,
+    "implementation": "heun full-sequence updates",
+    "files": {
+      "raw.fasta": "cffd46dbb6fcfdcbc53e1f19151f90bb42c13cb96bbf55a84e1af608a0772ad7",
+      "eligible.fasta": "99e6692fed42772340a57c9263b715aa138305feccab9be892ac5a71ba5dbe91",
+      "target_properties.npy": "fe086965cc362e818183179d74cd423d98a86a6068a7ccddb8e4a21fde532745"
+    }
+  },
+  {
+    "kind": "flow",
+    "variant": "euler_16",
+    "settings": {
+      "checkpoint_sha256": "cfe09968081455f0a8b8fb1a4525efa814fdc1c47d76d80a5c5b3a82b1b07533",
+      "samples": 5000,
+      "batch": 128,
+      "seed": 1042,
+      "variant": "euler_16",
+      "device": "cuda"
+    },
+    "draws": 5000,
+    "unique": 4992,
+    "unique_eligible": 4962,
+    "seconds": 6.889329186000396,
+    "raw_per_second": 725.7600653138122,
+    "eligible_per_second": 720.2442888174272,
+    "exact_known_fraction": 0.0076,
+    "normalized_property_mae": [
+      0.0,
+      0.09665226660735944,
+      0.16849994080395325,
+      0.45635970034982193
+    ],
+    "codebook_squared_distance": 0.004942506377119571,
+    "implementation": "Euler full-sequence updates",
+    "files": {
+      "raw.fasta": "def151965339adac9885e4635b4e5343c161bab70d56a30074e2adbd9c8c88b3",
+      "eligible.fasta": "f2b66d6a81a370f7f6f651f1167eae5a7b38b4f6db69d610a06fe9dd7618e48b",
+      "target_properties.npy": "b875161d4cc61f3e8d6013487c876618e715b0f6916e91fd7e4b5a79b8f49c7d"
+    }
+  },
+  {
+    "kind": "flow",
+    "variant": "euler_32",
+    "settings": {
+      "generator_revision": 2,
+      "condition_blend": 0.0,
+      "solver": "euler",
+      "checkpoint_sha256": "cfe09968081455f0a8b8fb1a4525efa814fdc1c47d76d80a5c5b3a82b1b07533",
+      "samples": 5000,
+      "batch": 128,
+      "seed": 1042,
+      "variant": "euler_32",
+      "device": "cuda"
+    },
+    "draws": 5000,
+    "unique": 4993,
+    "unique_eligible": 4963,
+    "seconds": 13.025119010009803,
+    "raw_per_second": 383.8736518382289,
+    "eligible_per_second": 381.03298681462604,
+    "exact_known_fraction": 0.0074,
+    "normalized_property_mae": [
+      0.0,
+      0.09382448574367208,
+      0.16433670248102655,
+      0.45553150303532064
+    ],
+    "codebook_squared_distance": 0.002117014270334039,
+    "implementation": "euler full-sequence updates",
+    "files": {
+      "raw.fasta": "498898ccd12e435b0454824b08e2d0520448b9b796168cd4f4f5e426ac236199",
+      "eligible.fasta": "0c76b62817db7978957a29dabbba44d1368ab237b78cb419d76bc764c571106c",
+      "target_properties.npy": "b875161d4cc61f3e8d6013487c876618e715b0f6916e91fd7e4b5a79b8f49c7d"
+    }
+  },
+  {
+    "kind": "flow",
+    "variant": "euler_64",
+    "settings": {
+      "generator_revision": 2,
+      "condition_blend": 0.0,
+      "solver": "euler",
+      "checkpoint_sha256": "cfe09968081455f0a8b8fb1a4525efa814fdc1c47d76d80a5c5b3a82b1b07533",
+      "samples": 5000,
+      "batch": 128,
+      "seed": 1042,
+      "variant": "euler_64",
+      "device": "cuda"
+    },
+    "draws": 5000,
+    "unique": 4993,
+    "unique_eligible": 4965,
+    "seconds": 25.030519976018695,
+    "raw_per_second": 199.75613789847006,
+    "eligible_per_second": 198.35784493318076,
+    "exact_known_fraction": 0.007,
+    "normalized_property_mae": [
+      0.0,
+      0.09378034689626931,
+      0.16351755328647294,
+      0.45364663838514596
+    ],
+    "codebook_squared_distance": 0.0015970648819347844,
+    "implementation": "euler full-sequence updates",
+    "files": {
+      "raw.fasta": "b7da759a443e3d5d5adb012311aaa6a756aea0a0357a40670aa1f05f003d072d",
+      "eligible.fasta": "7577e772df7e4e9d6d3008f061d6150d43560c8e7304e5fa861067d0d7d4b418",
+      "target_properties.npy": "b875161d4cc61f3e8d6013487c876618e715b0f6916e91fd7e4b5a79b8f49c7d"
+    }
+  },
+  {
+    "kind": "flow",
+    "variant": "heun_32",
+    "settings": {
+      "generator_revision": 2,
+      "condition_blend": 0.0,
+      "solver": "heun",
+      "checkpoint_sha256": "cfe09968081455f0a8b8fb1a4525efa814fdc1c47d76d80a5c5b3a82b1b07533",
+      "samples": 5000,
+      "batch": 128,
+      "seed": 1042,
+      "variant": "heun_32",
+      "device": "cuda"
+    },
+    "draws": 5000,
+    "unique": 4993,
+    "unique_eligible": 4965,
+    "seconds": 25.258825670025544,
+    "raw_per_second": 197.95061200859635,
+    "eligible_per_second": 196.56495772453616,
+    "exact_known_fraction": 0.007,
+    "normalized_property_mae": [
+      0.0,
+      0.09181150076060045,
+      0.16219979652834912,
+      0.4506578939162643
+    ],
+    "codebook_squared_distance": 0.002721425628988072,
+    "implementation": "heun full-sequence updates",
+    "files": {
+      "raw.fasta": "90959d5ec643316576aeac2aa988e92b5badf52f4a42826650313dfb7e4e572f",
+      "eligible.fasta": "4d2b1b0697021867394b03ed522d808f79b5a095a95bcf6ddb7ff7a6738d9c4f",
+      "target_properties.npy": "b875161d4cc61f3e8d6013487c876618e715b0f6916e91fd7e4b5a79b8f49c7d"
+    }
+  },
+  {
+    "kind": "ar",
+    "variant": "temp_0.9",
+    "settings": {
+      "generator_revision": 2,
+      "condition_blend": 0.0,
+      "solver": "euler",
+      "checkpoint_sha256": "f10a640be5ec68c5e0a51618ea58b585de698737208b88bbceaa133b77bf4d5b",
+      "samples": 5000,
+      "batch": 128,
+      "seed": 1042,
+      "variant": "temp_0.9",
+      "device": "cuda"
+    },
+    "draws": 5000,
+    "unique": 4946,
+    "unique_eligible": 4913,
+    "seconds": 14.794752575980965,
+    "raw_per_second": 337.95766264570165,
+    "eligible_per_second": 332.0771993156664,
+    "exact_known_fraction": 0.0152,
+    "normalized_property_mae": [
+      0.0,
+      0.16631767967818312,
+      0.22205886650664466,
+      0.7432059013277194
+    ],
+    "codebook_squared_distance": null,
+    "implementation": "causal AR with prefix recomputation (no KV cache)",
+    "files": {
+      "raw.fasta": "b48f96840f2f494653acb4bfc992e9e3d1d6ce8dd00a252fcaedd4b4152333eb",
+      "eligible.fasta": "d6882ea546a9b93f8ae643ff28b9af40172d8bd437d247665bd292181d66c13d",
+      "target_properties.npy": "b875161d4cc61f3e8d6013487c876618e715b0f6916e91fd7e4b5a79b8f49c7d"
+    }
+  },
+  {
+    "kind": "ar",
+    "variant": "temp_1.0",
+    "settings": {
+      "checkpoint_sha256": "f10a640be5ec68c5e0a51618ea58b585de698737208b88bbceaa133b77bf4d5b",
+      "samples": 5000,
+      "batch": 128,
+      "seed": 1042,
+      "variant": "temp_1.0",
+      "device": "cuda"
+    },
+    "draws": 5000,
+    "unique": 4968,
+    "unique_eligible": 4940,
+    "seconds": 13.517598269012524,
+    "raw_per_second": 369.88819319049463,
+    "eligible_per_second": 365.4495348722087,
+    "exact_known_fraction": 0.0106,
+    "normalized_property_mae": [
+      0.0,
+      0.16527698515296294,
+      0.22614079601304182,
+      0.7490740370408171
+    ],
+    "codebook_squared_distance": null,
+    "implementation": "causal AR with prefix recomputation (no KV cache)",
+    "files": {
+      "raw.fasta": "aff527e5ce8a29670a41daf21a612ca4c95ee2d27edc4495d6327a9cb5101fc5",
+      "eligible.fasta": "623c98fec6c72dfea839f88e96415501995e595630ebfbce8ae96f5325a15a6a",
+      "target_properties.npy": "b875161d4cc61f3e8d6013487c876618e715b0f6916e91fd7e4b5a79b8f49c7d"
+    }
+  },
+  {
+    "kind": "ar",
+    "variant": "temp_1.1",
+    "settings": {
+      "checkpoint_sha256": "f10a640be5ec68c5e0a51618ea58b585de698737208b88bbceaa133b77bf4d5b",
+      "samples": 5000,
+      "batch": 128,
+      "seed": 1042,
+      "variant": "temp_1.1",
+      "device": "cuda"
+    },
+    "draws": 5000,
+    "unique": 4987,
+    "unique_eligible": 4962,
+    "seconds": 13.331830655006343,
+    "raw_per_second": 375.04226759154113,
+    "eligible_per_second": 372.19194635784544,
+    "exact_known_fraction": 0.0072,
+    "normalized_property_mae": [
+      0.0,
+      0.170983548031856,
+      0.23205526470599566,
+      0.7562101129969302
+    ],
+    "codebook_squared_distance": null,
+    "implementation": "causal AR with prefix recomputation (no KV cache)",
+    "files": {
+      "raw.fasta": "25815acc662fa56812bf7208301bba0ecd563bd939af1a9e6b98e4c84af7c825",
+      "eligible.fasta": "5dc7ec6f7268e8ad2ef4b5a43c138515d12bbbb5e0b4e083f1edcef0c47806ce",
+      "target_properties.npy": "b875161d4cc61f3e8d6013487c876618e715b0f6916e91fd7e4b5a79b8f49c7d"
+    }
+  },
+  {
+    "kind": "ar",
+    "variant": "temp_1.2",
+    "settings": {
+      "generator_revision": 2,
+      "condition_blend": 0.0,
+      "solver": "euler",
+      "checkpoint_sha256": "f10a640be5ec68c5e0a51618ea58b585de698737208b88bbceaa133b77bf4d5b",
+      "samples": 5000,
+      "batch": 128,
+      "seed": 1042,
+      "variant": "temp_1.2",
+      "device": "cuda"
+    },
+    "draws": 5000,
+    "unique": 4993,
+    "unique_eligible": 4976,
+    "seconds": 14.08524014800787,
+    "raw_per_second": 354.98152303119724,
+    "eligible_per_second": 353.27761172064754,
+    "exact_known_fraction": 0.0046,
+    "normalized_property_mae": [
+      0.0,
+      0.18257028489377816,
+      0.24589858023922584,
+      0.7722667110881103
+    ],
+    "codebook_squared_distance": null,
+    "implementation": "causal AR with prefix recomputation (no KV cache)",
+    "files": {
+      "raw.fasta": "6a4167ebbe4ee8292b6c4f5bddc234368631242bff797e0641a8de2b7145dc44",
+      "eligible.fasta": "1d9b94be16a2a446b1c3cac505e08a2f19edba3e6c781e4dd8203ce2a400ad59",
+      "target_properties.npy": "b875161d4cc61f3e8d6013487c876618e715b0f6916e91fd7e4b5a79b8f49c7d"
+    }
+  }
+]

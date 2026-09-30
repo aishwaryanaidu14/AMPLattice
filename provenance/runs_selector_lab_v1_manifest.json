@@ -1,0 +1,25 @@
+{
+  "args": {
+    "production": "/home/aishwarya/amp-challenge/amp-decision-pilot/amp-decision-pilot/runs/production_v1",
+    "pilot": "/home/aishwarya/amp-challenge/amp-decision-pilot/amp-decision-pilot/runs/pilot",
+    "out": "/home/aishwarya/amp-challenge/amp-decision-pilot/amp-decision-pilot/runs/selector_lab_v1",
+    "device": "cuda",
+    "workers": 4,
+    "size": 50000,
+    "target": 0.8,
+    "repair_budget": 3000,
+    "seed": 42,
+    "policies": [
+      "regional",
+      "properties",
+      "hybrid"
+    ]
+  },
+  "pool": "3242665e411ae93ff3c4a63dde4a521497f7c2f29ba4180fd333938fe867dcbd",
+  "scores": "226665e2628535ec1e0180b14c13d6a4bfcabb6e3c0543507d45690cd31d2f3b",
+  "baseline": "8d3ddfb5600fae64c5c5855f68c1e5fc64d53e56d20d9bcea6c7ff5228c24447",
+  "dev": "735f1d85e242729848fde266e254e2c9c5aedfbc6c5743d42cdaf74068832619",
+  "audit": "bbe93f5d069e0cfb845aa95743903bf96a32732a37b8b630e5edf808df24c4d5",
+  "known": "f7a0676b3c99571dd6d714b4a375439b5c9182586b3747bf5c9c41b91e4cf1e1",
+  "code": "26a9f80905a329e99027a533c7ebdeee2977b74e7fa4b7dbedb2baf71849c491"
+}

@@ -1,0 +1,14 @@
+{
+  "pools": [
+    "flow/euler_16",
+    "flow/euler_32",
+    "flow/euler_64",
+    "flow/heun_32",
+    "flow/blend35_heun_32",
+    "ar/temp_1.0",
+    "ar/temp_1.1",
+    "ar/temp_0.9",
+    "ar/temp_1.2"
+  ],
+  "sha256": "def525968bf087cf98c01f131aff602ea8de678cda90048df4e457e5ddbbaf32"
+}

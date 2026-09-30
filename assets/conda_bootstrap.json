@@ -1,0 +1,9 @@
+{
+  "version": "26.7.2-0",
+  "platform": "Linux",
+  "architecture": "x86_64",
+  "url": "https://github.com/conda-forge/miniforge/releases/download/26.7.2-0/Miniforge3-Linux-x86_64.sh",
+  "sha256": "281b0ac7d550802efc81af633225a5e6116d29ae72f3ab4eae7168c3931a4c05",
+  "bytes": 124514161,
+  "source": "https://github.com/conda-forge/miniforge"
+}

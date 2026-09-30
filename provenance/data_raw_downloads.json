@@ -1,0 +1,17 @@
+{
+  "amps.fasta": {
+    "url": "https://raw.githubusercontent.com/szczurek-lab/OmegAMP/main/data/generative-model-data/AMPs.fasta",
+    "sha256": "7a06c71285ac22c0b4ecdd505db36fe2e30bb1bbb7fa52a1c2b46d4c8f1ea1db",
+    "bytes": 1398351
+  },
+  "negatives.fasta": {
+    "url": "https://raw.githubusercontent.com/szczurek-lab/OmegAMP/main/data/activity-data/curated-Non-AMPs.fasta",
+    "sha256": "a00af1cfcc8d97e315bf7af85691865bd153178551b702ee2ce7eef6fdac9be7",
+    "bytes": 29102
+  },
+  "forbidden.fasta": {
+    "url": "https://raw.githubusercontent.com/szczurek-lab/amp-challenge-2027/main/data/antibacterial.fasta",
+    "sha256": "cbbeac64ba95746d87961e8ad9dd0849ae8058d15a300b2e7f6990730ca521e9",
+    "bytes": 4318298
+  }
+}

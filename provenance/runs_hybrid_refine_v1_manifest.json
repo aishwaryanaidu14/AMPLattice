@@ -1,0 +1,29 @@
+{
+  "args": {
+    "production": "/home/aishwarya/amp-challenge/amp-decision-pilot/amp-decision-pilot/runs/production_v1",
+    "pilot": "/home/aishwarya/amp-challenge/amp-decision-pilot/amp-decision-pilot/runs/pilot",
+    "source": "/home/aishwarya/amp-challenge/amp-decision-pilot/amp-decision-pilot/runs/selector_lab_v1",
+    "out": "/home/aishwarya/amp-challenge/amp-decision-pilot/amp-decision-pilot/runs/hybrid_refine_v1",
+    "modes": [
+      "exchange",
+      "paired"
+    ],
+    "potency_floor": 0.88,
+    "epochs": 60,
+    "workers": 4,
+    "seed": 42,
+    "device": "cuda"
+  },
+  "source_fasta": "85e55abb5865790992783af45939f23a8e0bd7a162bc6b00ff084c1ee9c18c87",
+  "source_manifest": "c1b8c9b224a68b5b3f00df597e5fc1397925d7e1d0412467a9266f409c81a7f9",
+  "source_comparison": "ca65e3f9dfa293455d0260adb7beb8c9d82c45ae7123149ca173956c3e84e905",
+  "similarity": "3d84477a1ff82ca81159602cc36b4de19a9546c18f9b176655706c75d1dce45c",
+  "runner": "f4d2f6317dd43651d3a9841a434b406892124e92f8d8847177d1f3debf12abcc",
+  "dependencies": {
+    "selector.py": "7fcca6a431904c1e9bb3e9e0fd23fdeb27b636edb851934bb535f1618f171a9b",
+    "production.py": "9d86c5981c0ea2fe88c4131c4eb4289060fa3ad475b17228cd2c2831a6a90052",
+    "phase1.py": "5846a44adb7c63c179c90181e34eda0d74670fd5dfc36946edefd616897a111b",
+    "evaluate.py": "e5fe866223ca6ddb0fd5178e3019424bc9dc98e24befd15315683053e7430399",
+    "production_select.py": "712bbc1ede87395e19c2a43f634c3edee9f27ea7d56a04ca3839f4736f52d8ca"
+  }
+}

@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "amp-decision-pilot"
+version = "0.4.0"
+readme = "README.md"
+license = {file = "LICENSE"}
+description = "Reproducible conditional-flow versus autoregressive AMP decision pilot"
+requires-python = ">=3.11,<3.13"
+dependencies = ["torch>=2.6,<2.7", "numpy>=1.26,<3", "scipy>=1.11,<2", "scikit-learn>=1.4,<2", "rapidfuzz>=3.9,<4", "fair-esm==2.0.0", "seqme[aa_descriptors]==0.5.1"]
+
+[project.scripts]
+generate = "amp_challenge_2027.generate:main"
+amp-setup = "amp_pilot.setup_battle:main"
+amp-pilot = "amp_pilot.cli:main"
+amp-experiments = "amp_pilot.experiments:main"
+amp-phase1 = "amp_pilot.phase1:main"
+amp-production = "amp_pilot.production:main"
+amp-selectors = "amp_pilot.selector_lab:main"
+amp-refine-hybrid = "amp_pilot.hybrid_refine:main"
+amp-known-audit = "amp_pilot.known_amp_audit:main"
+amp-marlys-reference = "amp_pilot.marlys_reference:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["amp_pilot*", "amp_challenge_2027*"]
+
+[tool.setuptools.package-data]
+amp_pilot = ["scales.json"]
+
+[dependency-groups]
+dev = [
+    "levenshtein==0.27.3",
+]

@@ -1,0 +1,38 @@
+.venv/
+external/
+replay-*/
+verification-work/
+generate/*.tmp
+generate/success.json
+__pycache__/
+*.egg-info/
+*.pyc
+*:Zone.Identifier
+build/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Windows metadata
+*:Zone.Identifier
+*Zone.Identifier
+
+# Existing project exclusions
+external/
+replay-*/
+verification-work/
+generate/*.tmp
+generate/success.json
+build/

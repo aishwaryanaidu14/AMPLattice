@@ -1,0 +1,43 @@
+{
+  "sha256": "617c9ad8759a45dc516e0fdf9f1342cf1512dcacaf50839c4e0872ce446d0059",
+  "count": 256328,
+  "new_streams": 23,
+  "prior_pools": {
+    "flow/blend35_heun_32/eligible.fasta": {
+      "hash": "99e6692fed42772340a57c9263b715aa138305feccab9be892ac5a71ba5dbe91",
+      "n": 4975
+    },
+    "flow/euler_16/eligible.fasta": {
+      "hash": "f2b66d6a81a370f7f6f651f1167eae5a7b38b4f6db69d610a06fe9dd7618e48b",
+      "n": 4962
+    },
+    "flow/euler_32/eligible.fasta": {
+      "hash": "0c76b62817db7978957a29dabbba44d1368ab237b78cb419d76bc764c571106c",
+      "n": 4963
+    },
+    "flow/euler_64/eligible.fasta": {
+      "hash": "7577e772df7e4e9d6d3008f061d6150d43560c8e7304e5fa861067d0d7d4b418",
+      "n": 4965
+    },
+    "flow/heun_32/eligible.fasta": {
+      "hash": "4d2b1b0697021867394b03ed522d808f79b5a095a95bcf6ddb7ff7a6738d9c4f",
+      "n": 4965
+    },
+    "ar/temp_0.9/eligible.fasta": {
+      "hash": "d6882ea546a9b93f8ae643ff28b9af40172d8bd437d247665bd292181d66c13d",
+      "n": 4913
+    },
+    "ar/temp_1.0/eligible.fasta": {
+      "hash": "623c98fec6c72dfea839f88e96415501995e595630ebfbce8ae96f5325a15a6a",
+      "n": 4940
+    },
+    "ar/temp_1.1/eligible.fasta": {
+      "hash": "5dc7ec6f7268e8ad2ef4b5a43c138515d12bbbb5e0b4e083f1edcef0c47806ce",
+      "n": 4962
+    },
+    "ar/temp_1.2/eligible.fasta": {
+      "hash": "1d9b94be16a2a446b1c3cac505e08a2f19edba3e6c781e4dd8203ce2a400ad59",
+      "n": 4976
+    }
+  }
+}

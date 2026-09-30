@@ -1,0 +1,1132 @@
+{
+  "mode": "exchange",
+  "search": {
+    "initial": {
+      "fbd": 0.6586634766323876,
+      "wasserstein": {
+        "length": 0.06079471973775771,
+        "charge": 0.0903789360557095,
+        "hydrophobicity": 0.039940463846994755,
+        "hydrophobic_moment": 0.05087685744436102
+      },
+      "region_l1": 0.2740312643678161,
+      "activity": {
+        "n": 50000,
+        "amplify_mean": 0.6954781957094001,
+        "predicted_mic_um_mean": 17.876690628844,
+        "predicted_mic_um_median": 9.45873,
+        "predicted_mic_um_p90": 23.113609999999973,
+        "predicted_mic_um_geometric_mean": 8.977145433827285,
+        "predicted_fraction_le_16uM": 0.88598
+      },
+      "known_mean": 0.6001631021499634,
+      "known_p90": 0.7272727489471436,
+      "known_fraction_le_0_8": 0.97438
+    },
+    "final": {
+      "fbd": 0.599825481394177,
+      "wasserstein": {
+        "length": 0.06242245538210509,
+        "charge": 0.07510245674869594,
+        "hydrophobicity": 0.045840391293446796,
+        "hydrophobic_moment": 0.037112936606500634
+      },
+      "region_l1": 0.2607017405582923,
+      "activity": {
+        "n": 50000,
+        "amplify_mean": 0.6915899991356,
+        "predicted_mic_um_mean": 18.026981924403998,
+        "predicted_mic_um_median": 9.546714999999999,
+        "predicted_mic_um_p90": 23.797559999999983,
+        "predicted_mic_um_geometric_mean": 9.097225831178395,
+        "predicted_fraction_le_16uM": 0.88
+      },
+      "known_mean": 0.5986429452896118,
+      "known_p90": 0.7200000286102295,
+      "known_fraction_le_0_8": 0.97592
+    },
+    "trace": [
+      {
+        "epoch": 1,
+        "accepted_exchanges": 24,
+        "tested_edge_feasible_proposals": 48,
+        "metrics": {
+          "fbd": 0.6530644615800743,
+          "wasserstein": {
+            "length": 0.06106910946066199,
+            "charge": 0.08981217372499925,
+            "hydrophobicity": 0.04041533910586129,
+            "hydrophobic_moment": 0.05036968519273168
+          },
+          "region_l1": 0.27322436781609194,
+          "activity": {
+            "n": 50000,
+            "amplify_mean": 0.6953120776767999,
+            "predicted_mic_um_mean": 17.897033730203997,
+            "predicted_mic_um_median": 9.463645,
+            "predicted_mic_um_p90": 23.26105999999999,
+            "predicted_mic_um_geometric_mean": 8.986101259713756,
+            "predicted_fraction_le_16uM": 0.88556
+          },
+          "known_mean": 0.6000794172286987,
+          "known_p90": 0.7272727489471436,
+          "known_fraction_le_0_8": 0.97442
+        },
+        "violation": 0.10140214886628907
+      },
+      {
+        "epoch": 2,
+        "accepted_exchanges": 24,
+        "tested_edge_feasible_proposals": 51,
+        "metrics": {
+          "fbd": 0.6476565553885418,
+          "wasserstein": {
+            "length": 0.06173183040157485,
+            "charge": 0.09198144232041897,
+            "hydrophobicity": 0.03996988951971685,
+            "hydrophobic_moment": 0.05125174872428393
+          },
+          "region_l1": 0.27299126436781607,
+          "activity": {
+            "n": 50000,
+            "amplify_mean": 0.6952573683188,
+            "predicted_mic_um_mean": 17.900732546344,
+            "predicted_mic_um_median": 9.466285,
+            "predicted_mic_um_p90": 23.30532999999997,
+            "predicted_mic_um_geometric_mean": 8.987730007538671,
+            "predicted_fraction_le_16uM": 0.88538
+          },
+          "known_mean": 0.6000684499740601,
+          "known_p90": 0.7272727489471436,
+          "known_fraction_le_0_8": 0.97432
+        },
+        "violation": 0.09190919375173845
+      },
+      {
+        "epoch": 3,
+        "accepted_exchanges": 24,
+        "tested_edge_feasible_proposals": 52,
+        "metrics": {
+          "fbd": 0.6430973534875157,
+          "wasserstein": {
+            "length": 0.06210394535572803,
+            "charge": 0.09146169859370609,
+            "hydrophobicity": 0.04066743383851576,
+            "hydrophobic_moment": 0.050645505656689994
+          },
+          "region_l1": 0.2720312643678161,
+          "activity": {
+            "n": 50000,
+            "amplify_mean": 0.6951236460845999,
+            "predicted_mic_um_mean": 17.910516720284,
+            "predicted_mic_um_median": 9.470625,
+            "predicted_mic_um_p90": 23.497269999999993,
+            "predicted_mic_um_geometric_mean": 8.994541137272881,
+            "predicted_fraction_le_16uM": 0.88494
+          },
+          "known_mean": 0.5999711155891418,
+          "known_p90": 0.7272727489471436,
+          "known_fraction_le_0_8": 0.97432
+        },
+        "violation": 0.08093086407311834
+      },
+      {
+        "epoch": 4,
+        "accepted_exchanges": 24,
+        "tested_edge_feasible_proposals": 56,
+        "metrics": {
+          "fbd": 0.6388857782964568,
+          "wasserstein": {
+            "length": 0.06273773131959925,
+            "charge": 0.09130949034905707,
+            "hydrophobicity": 0.04099227152824915,
+            "hydrophobic_moment": 0.050202635760177305
+          },
+          "region_l1": 0.2710712643678161,
+          "activity": {
+            "n": 50000,
+            "amplify_mean": 0.6949485442697999,
+            "predicted_mic_um_mean": 17.923680729084,
+            "predicted_mic_um_median": 9.475940000000001,
+            "predicted_mic_um_p90": 23.638629999999985,
+            "predicted_mic_um_geometric_mean": 9.001397222661183,
+            "predicted_fraction_le_16uM": 0.88452
+          },
+          "known_mean": 0.5998481512069702,
+          "known_p90": 0.7272727489471436,
+          "known_fraction_le_0_8": 0.97448
+        },
+        "violation": 0.07050436164579299
+      },
+      {
+        "epoch": 5,
+        "accepted_exchanges": 24,
+        "tested_edge_feasible_proposals": 64,
+        "metrics": {
+          "fbd": 0.6348682945435904,
+          "wasserstein": {
+            "length": 0.06310978518116432,
+            "charge": 0.09087956722755362,
+            "hydrophobicity": 0.041344563185363205,
+            "hydrophobic_moment": 0.04969878226834319
+          },
+          "region_l1": 0.2701843678160919,
+          "activity": {
+            "n": 50000,
+            "amplify_mean": 0.6947975444296,
+            "predicted_mic_um_mean": 17.935614544284,
+            "predicted_mic_um_median": 9.479759999999999,
+            "predicted_mic_um_p90": 23.73193999999997,
+            "predicted_mic_um_geometric_mean": 9.008591573295119,
+            "predicted_fraction_le_16uM": 0.88408
+          },
+          "known_mean": 0.5997381806373596,
+          "known_p90": 0.7272727489471436,
+          "known_fraction_le_0_8": 0.9746
+        },
+        "violation": 0.06067083694045916
+      },
+      {
+        "epoch": 6,
+        "accepted_exchanges": 24,
+        "tested_edge_feasible_proposals": 107,
+        "metrics": {
+          "fbd": 0.6310241641631436,
+          "wasserstein": {
+            "length": 0.06358182851802506,
+            "charge": 0.09084324827397046,
+            "hydrophobicity": 0.04133656884531778,
+            "hydrophobic_moment": 0.04922483160142699
+          },
+          "region_l1": 0.26927126436781607,
+          "activity": {
+            "n": 50000,
+            "amplify_mean": 0.6945901141402,
+            "predicted_mic_um_mean": 17.944922871684,
+            "predicted_mic_um_median": 9.483165,
+            "predicted_mic_um_p90": 23.797559999999983,
+            "predicted_mic_um_geometric_mean": 9.01340006665516,
+            "predicted_fraction_le_16uM": 0.88366
+          },
+          "known_mean": 0.5996353030204773,
+          "known_p90": 0.7272727489471436,
+          "known_fraction_le_0_8": 0.97474
+        },
+        "violation": 0.05101037089414784
+      },
+      {
+        "epoch": 7,
+        "accepted_exchanges": 24,
+        "tested_edge_feasible_proposals": 171,
+        "metrics": {
+          "fbd": 0.6274224961529473,
+          "wasserstein": {
+            "length": 0.06406549853805966,
+            "charge": 0.0906794051164226,
+            "hydrophobicity": 0.0416067891449829,
+            "hydrophobic_moment": 0.04868791206104668
+          },
+          "region_l1": 0.26841070607553363,
+          "activity": {
+            "n": 50000,
+            "amplify_mean": 0.694425555363,
+            "predicted_mic_um_mean": 17.950839727684002,
+            "predicted_mic_um_median": 9.48784,
+            "predicted_mic_um_p90": 23.797559999999983,
+            "predicted_mic_um_geometric_mean": 9.018171670628258,
+            "predicted_fraction_le_16uM": 0.88324
+          },
+          "known_mean": 0.5995258092880249,
+          "known_p90": 0.7272727489471436,
+          "known_fraction_le_0_8": 0.97486
+        },
+        "violation": 0.04596076002339422
+      },
+      {
+        "epoch": 8,
+        "accepted_exchanges": 3,
+        "tested_edge_feasible_proposals": 640,
+        "metrics": {
+          "fbd": 0.6271830440233988,
+          "wasserstein": {
+            "length": 0.06397946108257276,
+            "charge": 0.09019074500718777,
+            "hydrophobicity": 0.04175023187422826,
+            "hydrophobic_moment": 0.048556221232058404
+          },
+          "region_l1": 0.2684038095238095,
+          "activity": {
+            "n": 50000,
+            "amplify_mean": 0.6943882886418,
+            "predicted_mic_um_mean": 17.951887814304,
+            "predicted_mic_um_median": 9.488669999999999,
+            "predicted_mic_um_p90": 23.797559999999983,
+            "predicted_mic_um_geometric_mean": 9.019686760273503,
+            "predicted_fraction_le_16uM": 0.88318
+          },
+          "known_mean": 0.5995236039161682,
+          "known_p90": 0.7272727489471436,
+          "known_fraction_le_0_8": 0.97486
+        },
+        "violation": 0.04593388508018337
+      },
+      {
+        "epoch": 9,
+        "accepted_exchanges": 24,
+        "tested_edge_feasible_proposals": 241,
+        "metrics": {
+          "fbd": 0.6252409418000724,
+          "wasserstein": {
+            "length": 0.0636119968016891,
+            "charge": 0.0876570061310008,
+            "hydrophobicity": 0.042151752715260435,
+            "hydrophobic_moment": 0.04745829892769885
+          },
+          "region_l1": 0.26775848932676516,
+          "activity": {
+            "n": 50000,
+            "amplify_mean": 0.6940907147102,
+            "predicted_mic_um_mean": 17.959784374784,
+            "predicted_mic_um_median": 9.494605,
+            "predicted_mic_um_p90": 23.797559999999983,
+            "predicted_mic_um_geometric_mean": 9.029886895810586,
+            "predicted_fraction_le_16uM": 0.88272
+          },
+          "known_mean": 0.5994881987571716,
+          "known_p90": 0.7272727489471436,
+          "known_fraction_le_0_8": 0.97488
+        },
+        "violation": 0.04341915825118359
+      },
+      {
+        "epoch": 10,
+        "accepted_exchanges": 24,
+        "tested_edge_feasible_proposals": 578,
+        "metrics": {
+          "fbd": 0.6236037299336896,
+          "wasserstein": {
+            "length": 0.06329575101935873,
+            "charge": 0.08573657856986025,
+            "hydrophobicity": 0.04256528150934142,
+            "hydrophobic_moment": 0.04651484840098454
+          },
+          "region_l1": 0.26685300492610836,
+          "activity": {
+            "n": 50000,
+            "amplify_mean": 0.6938658806857999,
+            "predicted_mic_um_mean": 17.966651585064,
+            "predicted_mic_um_median": 9.501245,
+            "predicted_mic_um_p90": 23.797559999999983,
+            "predicted_mic_um_geometric_mean": 9.036911342323542,
+            "predicted_fraction_le_16uM": 0.88228
+          },
+          "known_mean": 0.599437415599823,
+          "known_p90": 0.7272727489471436,
+          "known_fraction_le_0_8": 0.97492
+        },
+        "violation": 0.03989060618354068
+      },
+      {
+        "epoch": 11,
+        "accepted_exchanges": 24,
+        "tested_edge_feasible_proposals": 583,
+        "metrics": {
+          "fbd": 0.6225363809711677,
+          "wasserstein": {
+            "length": 0.06276195453078323,
+            "charge": 0.08400723079169953,
+            "hydrophobicity": 0.042915998237827824,
+            "hydrophobic_moment": 0.046001092867709294
+          },
+          "region_l1": 0.26608006568144493,
+          "activity": {
+            "n": 50000,
+            "amplify_mean": 0.6936684354902001,
+            "predicted_mic_um_mean": 17.972340523544002,
+            "predicted_mic_um_median": 9.50655,
+            "predicted_mic_um_p90": 23.797559999999983,
+            "predicted_mic_um_geometric_mean": 9.044647446187962,
+            "predicted_fraction_le_16uM": 0.88196
+          },
+          "known_mean": 0.5994212627410889,
+          "known_p90": 0.7272727489471436,
+          "known_fraction_le_0_8": 0.97494
+        },
+        "violation": 0.03687856492922292
+      },
+      {
+        "epoch": 12,
+        "accepted_exchanges": 24,
+        "tested_edge_feasible_proposals": 620,
+        "metrics": {
+          "fbd": 0.6214679790646613,
+          "wasserstein": {
+            "length": 0.06256662625346154,
+            "charge": 0.08264350438577243,
+            "hydrophobicity": 0.04323560869366281,
+            "hydrophobic_moment": 0.04513308603908176
+          },
+          "region_l1": 0.265520065681445,
+          "activity": {
+            "n": 50000,
+            "amplify_mean": 0.693480979361,
+            "predicted_mic_um_mean": 17.977073409404,
+            "predicted_mic_um_median": 9.509545,
+            "predicted_mic_um_p90": 23.797559999999983,
+            "predicted_mic_um_geometric_mean": 9.050755166317524,
+            "predicted_fraction_le_16uM": 0.8817
+          },
+          "known_mean": 0.5993821620941162,
+          "known_p90": 0.7272727489471436,
+          "known_fraction_le_0_8": 0.97492
+        },
+        "violation": 0.03469631954051544
+      },
+      {
+        "epoch": 13,
+        "accepted_exchanges": 24,
+        "tested_edge_feasible_proposals": 598,
+        "metrics": {
+          "fbd": 0.6207131249673008,
+          "wasserstein": {
+            "length": 0.06220387373843561,
+            "charge": 0.08117441375387,
+            "hydrophobicity": 0.043525048581079334,
+            "hydrophobic_moment": 0.04450391911993046
+          },
+          "region_l1": 0.26492446633825945,
+          "activity": {
+            "n": 50000,
+            "amplify_mean": 0.6932932715708,
+            "predicted_mic_um_mean": 17.983743409124,
+            "predicted_mic_um_median": 9.516465,
+            "predicted_mic_um_p90": 23.797559999999983,
+            "predicted_mic_um_geometric_mean": 9.05996552781418,
+            "predicted_fraction_le_16uM": 0.88136
+          },
+          "known_mean": 0.5993703007698059,
+          "known_p90": 0.7272727489471436,
+          "known_fraction_le_0_8": 0.97494
+        },
+        "violation": 0.032375348254472636
+      },
+      {
+        "epoch": 14,
+        "accepted_exchanges": 4,
+        "tested_edge_feasible_proposals": 640,
+        "metrics": {
+          "fbd": 0.6205410846745192,
+          "wasserstein": {
+            "length": 0.06214341498593126,
+            "charge": 0.0806148759693277,
+            "hydrophobicity": 0.04378713712932135,
+            "hydrophobic_moment": 0.044427696916527155
+          },
+          "region_l1": 0.2649175697865353,
+          "activity": {
+            "n": 50000,
+            "amplify_mean": 0.6932378086328,
+            "predicted_mic_um_mean": 17.988374717524,
+            "predicted_mic_um_median": 9.517485,
+            "predicted_mic_um_p90": 23.797559999999983,
+            "predicted_mic_um_geometric_mean": 9.061248297861782,
+            "predicted_fraction_le_16uM": 0.8813
+          },
+          "known_mean": 0.5993557572364807,
+          "known_p90": 0.7272727489471436,
+          "known_fraction_le_0_8": 0.97494
+        },
+        "violation": 0.032348473311262005
+      },
+      {
+        "epoch": 15,
+        "accepted_exchanges": 24,
+        "tested_edge_feasible_proposals": 590,
+        "metrics": {
+          "fbd": 0.619390820296223,
+          "wasserstein": {
+            "length": 0.06189460396600962,
+            "charge": 0.07934047547990317,
+            "hydrophobicity": 0.0442156026176721,
+            "hydrophobic_moment": 0.04348024814352859
+          },
+          "region_l1": 0.2643975697865353,
+          "activity": {
+            "n": 50000,
+            "amplify_mean": 0.693064765241,
+            "predicted_mic_um_mean": 17.993318513924,
+            "predicted_mic_um_median": 9.522115,
+            "predicted_mic_um_p90": 23.797559999999983,
+            "predicted_mic_um_geometric_mean": 9.067330051830753,
+            "predicted_fraction_le_16uM": 0.88102
+          },
+          "known_mean": 0.5993170142173767,
+          "known_p90": 0.7244514226913452,
+          "known_fraction_le_0_8": 0.97494
+        },
+        "violation": 0.03032210259317636
+      },
+      {
+        "epoch": 16,
+        "accepted_exchanges": 24,
+        "tested_edge_feasible_proposals": 595,
+        "metrics": {
+          "fbd": 0.618454056300175,
+          "wasserstein": {
+            "length": 0.06153882746088795,
+            "charge": 0.07800673356614159,
+            "hydrophobicity": 0.04454130283365257,
+            "hydrophobic_moment": 0.04272948576511856
+          },
+          "region_l1": 0.2639575697865353,
+          "activity": {
+            "n": 50000,
+            "amplify_mean": 0.6929308499304,
+            "predicted_mic_um_mean": 17.998820316704,
+            "predicted_mic_um_median": 9.527660000000001,
+            "predicted_mic_um_p90": 23.797559999999983,
+            "predicted_mic_um_geometric_mean": 9.074688709921592,
+            "predicted_fraction_le_16uM": 0.88074
+          },
+          "known_mean": 0.5992940068244934,
+          "known_p90": 0.7234776020050049,
+          "known_fraction_le_0_8": 0.97494
+        },
+        "violation": 0.028607481216334607
+      },
+      {
+        "epoch": 17,
+        "accepted_exchanges": 10,
+        "tested_edge_feasible_proposals": 640,
+        "metrics": {
+          "fbd": 0.6180544374631882,
+          "wasserstein": {
+            "length": 0.06144116332222708,
+            "charge": 0.07739642565104735,
+            "hydrophobicity": 0.04472697614625964,
+            "hydrophobic_moment": 0.042425996245408604
+          },
+          "region_l1": 0.26371474548440066,
+          "activity": {
+            "n": 50000,
+            "amplify_mean": 0.6928332603443998,
+            "predicted_mic_um_mean": 18.002107111584,
+            "predicted_mic_um_median": 9.530895000000001,
+            "predicted_mic_um_p90": 23.797559999999983,
+            "predicted_mic_um_geometric_mean": 9.078843173404206,
+            "predicted_fraction_le_16uM": 0.88056
+          },
+          "known_mean": 0.5992801785469055,
+          "known_p90": 0.7234042286872864,
+          "known_fraction_le_0_8": 0.97494
+        },
+        "violation": 0.027661227263478416
+      },
+      {
+        "epoch": 18,
+        "accepted_exchanges": 24,
+        "tested_edge_feasible_proposals": 596,
+        "metrics": {
+          "fbd": 0.6168794838874145,
+          "wasserstein": {
+            "length": 0.06115979758941846,
+            "charge": 0.07637172723476876,
+            "hydrophobicity": 0.04476941077772232,
+            "hydrophobic_moment": 0.041483505382535556
+          },
+          "region_l1": 0.2630816420361248,
+          "activity": {
+            "n": 50000,
+            "amplify_mean": 0.6927134309692,
+            "predicted_mic_um_mean": 18.008178267444,
+            "predicted_mic_um_median": 9.53844,
+            "predicted_mic_um_p90": 23.797559999999983,
+            "predicted_mic_um_geometric_mean": 9.086664144761135,
+            "predicted_fraction_le_16uM": 0.88026
+          },
+          "known_mean": 0.5992370247840881,
+          "known_p90": 0.7234042286872864,
+          "known_fraction_le_0_8": 0.97492
+        },
+        "violation": 0.02519410747673745
+      },
+      {
+        "epoch": 19,
+        "accepted_exchanges": 2,
+        "tested_edge_feasible_proposals": 639,
+        "metrics": {
+          "fbd": 0.6168750339148783,
+          "wasserstein": {
+            "length": 0.061138869559705426,
+            "charge": 0.07605776126714638,
+            "hydrophobicity": 0.04485820258190414,
+            "hydrophobic_moment": 0.04147884428958149
+          },
+          "region_l1": 0.2630747454844007,
+          "activity": {
+            "n": 50000,
+            "amplify_mean": 0.6926762053612,
+            "predicted_mic_um_mean": 18.020082848843998,
+            "predicted_mic_um_median": 9.53883,
+            "predicted_mic_um_p90": 23.797559999999983,
+            "predicted_mic_um_geometric_mean": 9.087633240724577,
+            "predicted_fraction_le_16uM": 0.88024
+          },
+          "known_mean": 0.5992307066917419,
+          "known_p90": 0.7234042286872864,
+          "known_fraction_le_0_8": 0.97492
+        },
+        "violation": 0.025167232533526818
+      },
+      {
+        "epoch": 20,
+        "accepted_exchanges": 24,
+        "tested_edge_feasible_proposals": 591,
+        "metrics": {
+          "fbd": 0.6158476299185942,
+          "wasserstein": {
+            "length": 0.06067380223274906,
+            "charge": 0.07492139667305586,
+            "hydrophobicity": 0.04503077211102998,
+            "hydrophobic_moment": 0.040730254076552085
+          },
+          "region_l1": 0.2626347454844007,
+          "activity": {
+            "n": 50000,
+            "amplify_mean": 0.6924814258395999,
+            "predicted_mic_um_mean": 18.025044188104,
+            "predicted_mic_um_median": 9.543980000000001,
+            "predicted_mic_um_p90": 23.797559999999983,
+            "predicted_mic_um_geometric_mean": 9.094062443765434,
+            "predicted_fraction_le_16uM": 0.88
+          },
+          "known_mean": 0.599199116230011,
+          "known_p90": 0.7234042286872864,
+          "known_fraction_le_0_8": 0.97492
+        },
+        "violation": 0.023452611156685066
+      },
+      {
+        "epoch": 21,
+        "accepted_exchanges": 24,
+        "tested_edge_feasible_proposals": 74,
+        "metrics": {
+          "fbd": 0.6129723654481118,
+          "wasserstein": {
+            "length": 0.060941215945749,
+            "charge": 0.0748831737120937,
+            "hydrophobicity": 0.04517856737706838,
+            "hydrophobic_moment": 0.039582743057323615
+          },
+          "region_l1": 0.2620251559934318,
+          "activity": {
+            "n": 50000,
+            "amplify_mean": 0.6923153884876,
+            "predicted_mic_um_mean": 18.025790606603998,
+            "predicted_mic_um_median": 9.545539999999999,
+            "predicted_mic_um_p90": 23.797559999999983,
+            "predicted_mic_um_geometric_mean": 9.095407367924393,
+            "predicted_fraction_le_16uM": 0.88
+          },
+          "known_mean": 0.5991250872612,
+          "known_p90": 0.7222222089767456,
+          "known_fraction_le_0_8": 0.97508
+        },
+        "violation": 0.021077122128700276
+      },
+      {
+        "epoch": 22,
+        "accepted_exchanges": 24,
+        "tested_edge_feasible_proposals": 72,
+        "metrics": {
+          "fbd": 0.6107949368996675,
+          "wasserstein": {
+            "length": 0.06106910946066202,
+            "charge": 0.07479076574618543,
+            "hydrophobicity": 0.04533911584170172,
+            "hydrophobic_moment": 0.03898176346648227
+          },
+          "region_l1": 0.2617782594417077,
+          "activity": {
+            "n": 50000,
+            "amplify_mean": 0.6921768872049999,
+            "predicted_mic_um_mean": 18.026213832604,
+            "predicted_mic_um_median": 9.54637,
+            "predicted_mic_um_p90": 23.797559999999983,
+            "predicted_mic_um_geometric_mean": 9.096233564011964,
+            "predicted_fraction_le_16uM": 0.88
+          },
+          "known_mean": 0.5990608334541321,
+          "known_p90": 0.7222222089767456,
+          "known_fraction_le_0_8": 0.9752
+        },
+        "violation": 0.020114999161757963
+      },
+      {
+        "epoch": 23,
+        "accepted_exchanges": 24,
+        "tested_edge_feasible_proposals": 80,
+        "metrics": {
+          "fbd": 0.6086669241828968,
+          "wasserstein": {
+            "length": 0.061192352302305436,
+            "charge": 0.07484659138921065,
+            "hydrophobicity": 0.045328775469994365,
+            "hydrophobic_moment": 0.03860503715679478
+          },
+          "region_l1": 0.26134515599343183,
+          "activity": {
+            "n": 50000,
+            "amplify_mean": 0.6920713778884,
+            "predicted_mic_um_mean": 18.025868588404,
+            "predicted_mic_um_median": 9.546235,
+            "predicted_mic_um_p90": 23.797559999999983,
+            "predicted_mic_um_geometric_mean": 9.095670649077634,
+            "predicted_fraction_le_16uM": 0.88
+          },
+          "known_mean": 0.599002480506897,
+          "known_p90": 0.7222222089767456,
+          "known_fraction_le_0_8": 0.97528
+        },
+        "violation": 0.01842725272812684
+      },
+      {
+        "epoch": 24,
+        "accepted_exchanges": 24,
+        "tested_edge_feasible_proposals": 74,
+        "metrics": {
+          "fbd": 0.6067698042273619,
+          "wasserstein": {
+            "length": 0.061362101876644516,
+            "charge": 0.07478583732147952,
+            "hydrophobicity": 0.045488185692032404,
+            "hydrophobic_moment": 0.03842539967374259
+          },
+          "region_l1": 0.2612058456486043,
+          "activity": {
+            "n": 50000,
+            "amplify_mean": 0.6919804895684001,
+            "predicted_mic_um_mean": 18.025773977604,
+            "predicted_mic_um_median": 9.54449,
+            "predicted_mic_um_p90": 23.797559999999983,
+            "predicted_mic_um_geometric_mean": 9.095671066710501,
+            "predicted_fraction_le_16uM": 0.88
+          },
+          "known_mean": 0.5989395976066589,
+          "known_p90": 0.7222222089767456,
+          "known_fraction_le_0_8": 0.97534
+        },
+        "violation": 0.017884378875271167
+      },
+      {
+        "epoch": 25,
+        "accepted_exchanges": 24,
+        "tested_edge_feasible_proposals": 81,
+        "metrics": {
+          "fbd": 0.6048812114635407,
+          "wasserstein": {
+            "length": 0.061787638480809606,
+            "charge": 0.0748771010698644,
+            "hydrophobicity": 0.045681597306246956,
+            "hydrophobic_moment": 0.03830338495848917
+          },
+          "region_l1": 0.26108584564860426,
+          "activity": {
+            "n": 50000,
+            "amplify_mean": 0.6919271702738,
+            "predicted_mic_um_mean": 18.026652278604,
+            "predicted_mic_um_median": 9.545539999999999,
+            "predicted_mic_um_p90": 23.797559999999983,
+            "predicted_mic_um_geometric_mean": 9.096842379911068,
+            "predicted_fraction_le_16uM": 0.88
+          },
+          "known_mean": 0.5988471508026123,
+          "known_p90": 0.7222222089767456,
+          "known_fraction_le_0_8": 0.97554
+        },
+        "violation": 0.017416754863405215
+      },
+      {
+        "epoch": 26,
+        "accepted_exchanges": 9,
+        "tested_edge_feasible_proposals": 87,
+        "metrics": {
+          "fbd": 0.6040742639642733,
+          "wasserstein": {
+            "length": 0.06185507324321828,
+            "charge": 0.07491608318994711,
+            "hydrophobicity": 0.04567739798051678,
+            "hydrophobic_moment": 0.03814674917691862
+          },
+          "region_l1": 0.2609686699507389,
+          "activity": {
+            "n": 50000,
+            "amplify_mean": 0.6918880741937999,
+            "predicted_mic_um_mean": 18.027066184604,
+            "predicted_mic_um_median": 9.54637,
+            "predicted_mic_um_p90": 23.797559999999983,
+            "predicted_mic_um_geometric_mean": 9.097189912212881,
+            "predicted_fraction_le_16uM": 0.88
+          },
+          "known_mean": 0.598825216293335,
+          "known_p90": 0.7222222089767456,
+          "known_fraction_le_0_8": 0.97554
+        },
+        "violation": 0.01696013678066355
+      },
+      {
+        "epoch": 27,
+        "accepted_exchanges": 4,
+        "tested_edge_feasible_proposals": 81,
+        "metrics": {
+          "fbd": 0.6037640165291016,
+          "wasserstein": {
+            "length": 0.06184809723331394,
+            "charge": 0.07493517188378819,
+            "hydrophobicity": 0.04565237268449542,
+            "hydrophobic_moment": 0.038031481911223776
+          },
+          "region_l1": 0.26096584564860426,
+          "activity": {
+            "n": 50000,
+            "amplify_mean": 0.6918570772186,
+            "predicted_mic_um_mean": 18.026945397004003,
+            "predicted_mic_um_median": 9.546235,
+            "predicted_mic_um_p90": 23.797559999999983,
+            "predicted_mic_um_geometric_mean": 9.097158106200494,
+            "predicted_fraction_le_16uM": 0.88
+          },
+          "known_mean": 0.5988184213638306,
+          "known_p90": 0.7222222089767456,
+          "known_fraction_le_0_8": 0.97554
+        },
+        "violation": 0.016949130851539262
+      },
+      {
+        "epoch": 28,
+        "accepted_exchanges": 16,
+        "tested_edge_feasible_proposals": 96,
+        "metrics": {
+          "fbd": 0.6026834849165059,
+          "wasserstein": {
+            "length": 0.06210388426313995,
+            "charge": 0.07501623861345119,
+            "hydrophobicity": 0.045776554275580944,
+            "hydrophobic_moment": 0.03763894255488747
+          },
+          "region_l1": 0.26084584564860425,
+          "activity": {
+            "n": 50000,
+            "amplify_mean": 0.6917777293746,
+            "predicted_mic_um_mean": 18.026561083804,
+            "predicted_mic_um_median": 9.54473,
+            "predicted_mic_um_p90": 23.797559999999983,
+            "predicted_mic_um_geometric_mean": 9.096663992700577,
+            "predicted_fraction_le_16uM": 0.88
+          },
+          "known_mean": 0.5987628102302551,
+          "known_p90": 0.7222222089767456,
+          "known_fraction_le_0_8": 0.9757
+        },
+        "violation": 0.01648150683967331
+      },
+      {
+        "epoch": 29,
+        "accepted_exchanges": 2,
+        "tested_edge_feasible_proposals": 88,
+        "metrics": {
+          "fbd": 0.6025546883691195,
+          "wasserstein": {
+            "length": 0.06208528157006168,
+            "charge": 0.07502271652967625,
+            "hydrophobicity": 0.045803155317420394,
+            "hydrophobic_moment": 0.03761400838861112
+          },
+          "region_l1": 0.26081346469622335,
+          "activity": {
+            "n": 50000,
+            "amplify_mean": 0.6917744625546001,
+            "predicted_mic_um_mean": 18.026474366004003,
+            "predicted_mic_um_median": 9.54449,
+            "predicted_mic_um_p90": 23.797559999999983,
+            "predicted_mic_um_geometric_mean": 9.096564977622783,
+            "predicted_fraction_le_16uM": 0.88
+          },
+          "known_mean": 0.5987586975097656,
+          "known_p90": 0.7222222089767456,
+          "known_fraction_le_0_8": 0.9757
+        },
+        "violation": 0.016355322582503273
+      },
+      {
+        "epoch": 30,
+        "accepted_exchanges": 24,
+        "tested_edge_feasible_proposals": 83,
+        "metrics": {
+          "fbd": 0.6005258068352859,
+          "wasserstein": {
+            "length": 0.06251314351086154,
+            "charge": 0.07515504180331888,
+            "hydrophobicity": 0.045949299228046456,
+            "hydrophobic_moment": 0.03717786219149951
+          },
+          "region_l1": 0.2607672249589491,
+          "activity": {
+            "n": 50000,
+            "amplify_mean": 0.6916407724956,
+            "predicted_mic_um_mean": 18.026876278604,
+            "predicted_mic_um_median": 9.54637,
+            "predicted_mic_um_p90": 23.797559999999983,
+            "predicted_mic_um_geometric_mean": 9.097277554596475,
+            "predicted_fraction_le_16uM": 0.88
+          },
+          "known_mean": 0.5986610054969788,
+          "known_p90": 0.7200000286102295,
+          "known_fraction_le_0_8": 0.97592
+        },
+        "violation": 0.016175132487071586
+      },
+      {
+        "epoch": 31,
+        "accepted_exchanges": 4,
+        "tested_edge_feasible_proposals": 88,
+        "metrics": {
+          "fbd": 0.6003186255197601,
+          "wasserstein": {
+            "length": 0.062443383411818085,
+            "charge": 0.07506973513367365,
+            "hydrophobicity": 0.0459492407991651,
+            "hydrophobic_moment": 0.037076769014448806
+          },
+          "region_l1": 0.2607417405582923,
+          "activity": {
+            "n": 50000,
+            "amplify_mean": 0.6916321537556,
+            "predicted_mic_um_mean": 18.026825506804,
+            "predicted_mic_um_median": 9.54637,
+            "predicted_mic_um_p90": 23.797559999999983,
+            "predicted_mic_um_geometric_mean": 9.097137276250308,
+            "predicted_fraction_le_16uM": 0.88
+          },
+          "known_mean": 0.598658561706543,
+          "known_p90": 0.7200000286102295,
+          "known_fraction_le_0_8": 0.97592
+        },
+        "violation": 0.01607582317311218
+      },
+      {
+        "epoch": 32,
+        "accepted_exchanges": 6,
+        "tested_edge_feasible_proposals": 79,
+        "metrics": {
+          "fbd": 0.599825481394177,
+          "wasserstein": {
+            "length": 0.06242245538210509,
+            "charge": 0.07510245674869594,
+            "hydrophobicity": 0.045840391293446796,
+            "hydrophobic_moment": 0.037112936606500634
+          },
+          "region_l1": 0.2607017405582923,
+          "activity": {
+            "n": 50000,
+            "amplify_mean": 0.6915899991356,
+            "predicted_mic_um_mean": 18.026981924403998,
+            "predicted_mic_um_median": 9.546714999999999,
+            "predicted_mic_um_p90": 23.797559999999983,
+            "predicted_mic_um_geometric_mean": 9.097225831178395,
+            "predicted_fraction_le_16uM": 0.88
+          },
+          "known_mean": 0.5986429452896118,
+          "known_p90": 0.7200000286102295,
+          "known_fraction_le_0_8": 0.97592
+        },
+        "violation": 0.015919948502490122
+      },
+      {
+        "epoch": 33,
+        "accepted_exchanges": 0,
+        "tested_edge_feasible_proposals": 73,
+        "metrics": {
+          "fbd": 0.599825481394177,
+          "wasserstein": {
+            "length": 0.06242245538210509,
+            "charge": 0.07510245674869594,
+            "hydrophobicity": 0.045840391293446796,
+            "hydrophobic_moment": 0.037112936606500634
+          },
+          "region_l1": 0.2607017405582923,
+          "activity": {
+            "n": 50000,
+            "amplify_mean": 0.6915899991356,
+            "predicted_mic_um_mean": 18.026981924403998,
+            "predicted_mic_um_median": 9.546714999999999,
+            "predicted_mic_um_p90": 23.797559999999983,
+            "predicted_mic_um_geometric_mean": 9.097225831178395,
+            "predicted_fraction_le_16uM": 0.88
+          },
+          "known_mean": 0.5986429452896118,
+          "known_p90": 0.7200000286102295,
+          "known_fraction_le_0_8": 0.97592
+        },
+        "violation": 0.015919948502490122
+      }
+    ],
+    "accepted_sequence_replacements": 588,
+    "objective": "100*normalized_distribution_guard_violation + full_FBD + 0.5*regional_L1",
+    "warning": "Local heuristic; zero-edge insertion does not guarantee lower-distance quantiles, which are audited separately."
+  },
+  "metrics": {
+    "fbd": 0.599825481394177,
+    "wasserstein": {
+      "length": 0.06242245538210509,
+      "charge": 0.07510245674869594,
+      "hydrophobicity": 0.045840391293446796,
+      "hydrophobic_moment": 0.037112936606500634
+    },
+    "region_l1": 0.2607017405582923,
+    "activity": {
+      "n": 50000,
+      "amplify_mean": 0.6915899991356,
+      "predicted_mic_um_mean": 18.026981924403998,
+      "predicted_mic_um_median": 9.546714999999999,
+      "predicted_mic_um_p90": 23.797559999999983,
+      "predicted_mic_um_geometric_mean": 9.097225831178395,
+      "predicted_fraction_le_16uM": 0.88
+    },
+    "known_mean": 0.5986429452896118,
+    "known_p90": 0.7200000286102295,
+    "known_fraction_le_0_8": 0.97592
+  },
+  "neighbors": {
+    "n": 50000,
+    "near_neighbor_fraction_gt_0_8": 0.0002,
+    "mean_neighbors_gt_0_8": 0.0002,
+    "max_similarity_median": 0.5945945978164673,
+    "nearest_distance_median": 0.4054054021835327,
+    "nearest_distance_q10": 0.25925928354263306,
+    "undirected_edges_gt_0_8": 5,
+    "definition": "Exhaustive all selected pairs, normalized Indel similarity; >0.8 threshold, not official alignment identity."
+  },
+  "conformity_development": {
+    "package_version": "0.5.1",
+    "charge_model": "seqme.models.Charge defaults",
+    "amphiphilicity_model": "Eisenberg, window=11, angle=100 degrees, modality=mean",
+    "conformity_mean": 0.466099068852459,
+    "conformity_deviation": 0.006370187482474836,
+    "conformity_table": {
+      "columns": [
+        [
+          "Conformity score",
+          "value"
+        ],
+        [
+          "Conformity score",
+          "deviation"
+        ]
+      ],
+      "index": [
+        "candidates"
+      ],
+      "data": [
+        [
+          0.4660990689,
+          0.0063701875
+        ]
+      ]
+    },
+    "wasserstein_std_units": {
+      "charge": 0.07510245674869594,
+      "hydrophobic_moment": 0.037112936606500634
+    },
+    "warning": "Uses public seqme defaults, not undisclosed organizer configuration."
+  },
+  "held_out_audit": {
+    "properties": {
+      "package_version": "0.5.1",
+      "charge_model": "seqme.models.Charge defaults",
+      "amphiphilicity_model": "Eisenberg, window=11, angle=100 degrees, modality=mean",
+      "conformity_mean": 0.476349606557377,
+      "conformity_deviation": 0.0012039615661429113,
+      "conformity_table": {
+        "columns": [
+          [
+            "Conformity score",
+            "value"
+          ],
+          [
+            "Conformity score",
+            "deviation"
+          ]
+        ],
+        "index": [
+          "candidates"
+        ],
+        "data": [
+          [
+            0.4763496066,
+            0.0012039616
+          ]
+        ]
+      },
+      "wasserstein_std_units": {
+        "charge": 0.33149833633799103,
+        "hydrophobic_moment": 0.18170016733251274
+      },
+      "warning": "Uses public seqme defaults, not undisclosed organizer configuration."
+    },
+    "esm2": {
+      "sample_size": 1000,
+      "repeats": 3,
+      "kernel_bandwidth_sq": 10.11116461880195,
+      "mean": {
+        "fbd": 1.5700476812410578,
+        "mmd_unbiased": 0.020865629819671955,
+        "precision": 0.7526666666666667,
+        "recall": 0.7073333333333333
+      },
+      "subsample_sd": {
+        "fbd": 0.07799377920264472,
+        "mmd_unbiased": 0.002329811305846862,
+        "precision": 0.008339997335464543,
+        "recall": 0.006798692684790385
+      },
+      "replicates": [
+        {
+          "fbd": 1.532527255046631,
+          "mmd_unbiased": 0.018706691786102292,
+          "precision": 0.757,
+          "recall": 0.71
+        },
+        {
+          "fbd": 1.6786338794712368,
+          "mmd_unbiased": 0.024100619888704378,
+          "precision": 0.741,
+          "recall": 0.714
+        },
+        {
+          "fbd": 1.4989819092053054,
+          "mmd_unbiased": 0.0197895777842092,
+          "precision": 0.76,
+          "recall": 0.698
+        }
+      ],
+      "warning": "Subsample variability, not independent-run confidence intervals. Unbiased MMD may be negative."
+    },
+    "chemistry": {
+      "longest_identical_run_q90": 3.0,
+      "hydrophobic_fraction_q90": 0.6,
+      "cysteine_containing_fraction": 0.45116,
+      "odd_cysteine_count_fraction": 0.28196,
+      "CMW_count_q90": 5.0,
+      "validated_synthesizability_pass_rate": null,
+      "warning": "Descriptive sequence indicators only; these do not validate synthesis or justify hard exclusions."
+    }
+  },
+  "failed_guards": [
+    "regional_coverage"
+  ],
+  "accepted": false,
+  "potency_floor": 0.88,
+  "fasta_sha256": "a1de1df3d891396f00f0023227385e2670c9a6635ddaa872b9f1cc3b679a3d80",
+  "warning": "Local surrogates only; official ESM-C/alignment, safety and final submission replay unverified."
+}

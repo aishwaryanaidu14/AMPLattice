@@ -1,0 +1,12 @@
+{
+  "kind": "flow",
+  "steps": 15000,
+  "seconds": 630.0238702929928,
+  "parameters": 3317509,
+  "best_dev_loss": 0.7558769211173058,
+  "device": "cuda",
+  "cuda_name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "torch": "2.6.0+cu124",
+  "mixed_precision": false,
+  "warning": "Flow MSE and AR cross entropy have different meanings; never compare their magnitudes."
+}

@@ -1,0 +1,14 @@
+{
+  "pool_hash": "3242665e411ae93ff3c4a63dde4a521497f7c2f29ba4180fd333938fe867dcbd",
+  "score_hash": "226665e2628535ec1e0180b14c13d6a4bfcabb6e3c0543507d45690cd31d2f3b",
+  "reused_pilot_csv": "/home/aishwarya/amp-challenge/amp-decision-pilot/amp-decision-pilot/runs/pilot/experiments_v3/battle_scores.csv",
+  "reused_pilot_hash": "d8e16312241f62ebd20f2e451d1de73379c6a356971778057793f133db2779e8",
+  "battle_git_head": {
+    "head": "8c659c0cc3d69a260b1865984dbea9d1199f651d",
+    "dirty": true
+  },
+  "device_policy": "AMPlify/MBC preserve CUDA visibility; AMPeppy omitted",
+  "battle_repo": "/home/aishwarya/battleamp-snakemake",
+  "batch_count": 14,
+  "warning": "External model weights/environments must be pinned when preparing the final submission."
+}
