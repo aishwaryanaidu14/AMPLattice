@@ -8,7 +8,7 @@ Two trained modelsâ€”a conditional flow model and an autoregressive Transformerâ
 
 We use a hybrid generation and selection pipeline with two independently trained generators: a conditional flow model and an autoregressive Transformer. Both models have four layers, four attention heads and hidden dimension 256, and are trained on the positive AMP sequence collection distributed with OmegAMP [1]. Generation is conditioned on peptide length, net charge, hydrophobicity and hydrophobic moment.
 
-Candidate generation combines multiple flow and autoregressive sampling streams. Flow samples use Euler or Heun integration, while autoregressive sampling uses different temperatures and seeds. The resulting candidates are scored with AMPlify for predicted antimicrobial activity [5] and MBC-Attention for predicted *E. coli* MIC [6]. ESM2 embeddings [7] and physicochemical properties are then used to preserve diversity and representation of AMP-like sequence space during library construction.
+Candidate generation combines multiple flow and autoregressive sampling streams. Flow samples use Euler or Heun integration, while autoregressive sampling uses different temperatures. The resulting candidates are scored with AMPlify for predicted antimicrobial activity [5] and MBC-Attention for predicted *E. coli* MIC [6]. ESM2 embeddings [7] and physicochemical properties are then used to preserve diversity and representation of AMP-like sequence space during library construction.
 
 The final 50,000-peptide library balances predicted potency with sequence and embedding-space coverage. The top 100 are ranked separately using predicted MIC, AMPlify activity and similarity to the antibacterial reference, with additional novelty and pairwise-diversity constraints.
 
